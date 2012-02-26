@@ -1,0 +1,1708 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.35.14-abcd___ef (aaa@aaa-G31T-M7) (gcc version 4.4.3 (GCC) ) #20 SMP PREEMPT Fri Feb 10 19:31:34 KST 2012
+<4>[    0.000000] CPU: ARMv7 Processor [510f02d2] revision 2 (ARMv7), cr=10c53c7d
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
+<4>[    0.000000] Machine: QCT MSM8X60 SURF
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<7>[    0.000000] On node 0 totalpages: 240640
+<7>[    0.000000] free_area_init_node: node 0, pgdat c095a040, node_mem_map c102c000
+<7>[    0.000000]   Normal zone: 1056 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 113120 pages, LIFO batch:31
+<7>[    0.000000]   HighMem zone: 988 pages used for memmap
+<7>[    0.000000]   HighMem zone: 125476 pages, LIFO batch:31
+<6>[    0.000000] allocating 3072000 bytes at c1833000 (41a33000 physical) for fb
+<6>[    0.000000] allocating 6291456 bytes at c1c00000 (41e00000 physical) for kernel ebi1 pmem arena
+<6>[    0.000000] allocating 3145728 bytes at 38000000 physical for kernel smi pmem arena
+<6>[    0.000000] allocating 33554432 bytes at c7e00000 (48000000 physical) for adsp pmem arena
+<6>[    0.000000] allocating 63963136 bytes at 38300000 physical for user smi  pmem arena
+<6>[    0.000000] allocating 2330624 bytes at c9e00000 (4a000000 physical) for audio pmem arena
+<6>[    0.000000] allocating 33554432 bytes at ca039000 (4a239000 physical) for sf pmem arena
+<6>[    0.000000] PERCPU: Embedded 8 pages/cpu @cc03e000 s10720 r8192 d13856 u65536
+<6>[    0.000000] pcpu-alloc: s10720 r8192 d13856 u65536 alloc=16*4096
+<6>[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 238596
+<5>[    0.000000] Kernel command line: console=ttyHSL0,115200,n8 androidboot.hardware=qcom loglevel=0 androidboot.emmc=true androidboot.baseband=msm
+<6>[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Memory: 44MB 128MB 274MB 494MB = 940MB total
+<5>[    0.000000] Memory: 866360k/866360k available, 96200k reserved, 505856K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[    0.000000]     vmalloc : 0xe1800000 - 0xfa000000   ( 392 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xe1000000   ( 528 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc003e000   ( 216 kB)
+<5>[    0.000000]       .text : 0xc003e000 - 0xc07ee000   (7872 kB)
+<5>[    0.000000]       .data : 0xc0820000 - 0xc0969ec0   (1320 kB)
+<6>[    0.000000] SLUB: Genslabs=11, HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+<6>[    0.000000] Hierarchical RCU implementation.
+<6>[    0.000000] 	RCU-based detection of stalled CPUs is disabled.
+<6>[    0.000000] 	Verbose stalled-CPUs detection is disabled.
+<6>[    0.000000] NR_IRQS:839
+<4>[    0.000000] Console: colour dummy device 80x30
+<6>[    0.150167] Calibrating delay using timer specific routine.. 13.52 BogoMIPS (lpj=67640)
+<6>[    0.150194] pid_max: default: 32768 minimum: 301
+<4>[    0.150323] Mount-cache hash table entries: 512
+<6>[    0.150813] Initializing cgroup subsys cpuacct
+<6>[    0.150844] Initializing cgroup subsys freezer
+<6>[    0.150883] CPU: Testing write buffer coherency: ok
+<6>[    0.298307] Brought up 2 CPUs
+<6>[    0.298327] SMP: Total of 2 processors activated (27.05 BogoMIPS).
+<6>[    0.307724] regulator: core version 0.5
+<6>[    0.307964] NET: Registered protocol family 16
+<3>[    0.308115] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+<6>[    0.309192] msm_rpm_init: RPM firmware 2.0.69701
+<6>[    0.309665] socinfo_init: v5, id=70, ver=2.0, raw_id=1056, raw_ver=1056, hw_plat=0,  hw_plat_ver=65536
+<6>[    0.309678]  accessory_chip=0
+<6>[    0.309911] saw_probe: id=0, rc=0
+<6>[    0.310126] saw_probe: id=1, rc=0
+<6>[    0.312601] Max ACPU freq: 1836000 KHz
+<3>[    0.320015] saw_set_voltage: PMIC 8901 revision unavailable and expected bootloader core voltage: 1275000 not in set point range: 1337500 to 1337500
+<3>[    0.320072] increase_vdd: vdd_sc (cpu0) increase failed (-19)
+<3>[    0.320119] saw_set_voltage: PMIC 8901 revision unavailable and expected bootloader core voltage: 1275000 not in set point range: 1337500 to 1337500
+<3>[    0.320173] increase_vdd: vdd_sc (cpu1) increase failed (-19)
+<6>[    0.320208] CPU0: 25 scaling frequencies supported.
+<6>[    0.320240] CPU1: 25 scaling frequencies supported.
+<6>[    0.320776] msm8x60_init_uart12dm: GSBI12 port uart12_config_gpio configuration
+<4>[    0.366353] :::::: retry = 2 / retrylevel = 0
+<5>[    0.477569]  mpu3050_power_up OK
+<3>[    0.484572] max17040_init: 
+<3>[    0.484865] wlan_power: 0
+<6>[    0.555182] hw perfevents: enabled with ARMv7 Scorpion-MP PMU driver, 5 counters available
+<6>[    0.556438] Scorpion registered PMU device
+<6>[    0.556488] SCM Remote Version 1.0
+<5>[    0.557690] pm8058_init: i2c_add_driver: rc = 0
+<5>[    0.557811] pm8901_init: i2c_add_driver: rc = 0
+<6>[    0.563720] pm8058_probe: PMIC revision: E3
+<6>[    0.569979] pm8901_probe: PMIC revision: F4
+<6>[    0.579151] pm8058_gpio_probe: pm8058_misc_control() -> UART MUX CONFIG
+<6>[    0.579211] pm8058_gpio_probe: gpiochip_add(): rc=0
+<6>[    0.580812] pm8058_mpp_probe: gpiochip_add(): rc=0
+<4>[    0.602902] bio: create slab <bio-0> at 0
+<6>[    0.604383] pm8901_mpp_probe: gpiochip_add(): rc=0
+<5>[    0.607493] pmic8058_pwm_probe: OK
+<5>[    0.608315] SCSI subsystem initialized
+<6>[    0.608948] usbcore: registered new interface driver usbfs
+<6>[    0.609260] usbcore: registered new interface driver hub
+<6>[    0.609626] usbcore: registered new device driver usb
+<6>[    0.610768] i2c-gpio i2c-gpio.9: using pins 51 (SDA) and 52 (SCL)
+<6>[    0.611469] i2c-gpio i2c-gpio.12: using pins 72 (SDA) and 73 (SCL)
+<6>[    0.613168] Advanced Linux Sound Architecture Driver Version 1.0.23.
+<6>[    0.614333] Bluetooth: Core ver 2.15
+<6>[    0.614470] NET: Registered protocol family 31
+<6>[    0.614498] Bluetooth: HCI device and connection manager initialized
+<6>[    0.614536] Bluetooth: HCI socket layer initialized
+<6>[    0.614877] Switching to clocksource dg_timer
+<6>[    0.647740] NET: Registered protocol family 2
+<6>[    0.647952] IP route cache hash table entries: 16384 (order: 4, 65536 bytes)
+<6>[    0.648556] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.651356] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.654106] TCP: Hash tables configured (established 65536 bind 65536)
+<6>[    0.654142] TCP reno registered
+<6>[    0.654179] UDP hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.654258] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.654809] NET: Registered protocol family 1
+<6>[    0.667785] RPC: Registered udp transport module.
+<6>[    0.667820] RPC: Registered tcp transport module.
+<6>[    0.667850] RPC: Registered tcp NFSv4.1 backchannel transport module.
+<6>[    0.668355] Trying to unpack rootfs image as initramfs...
+<6>[    0.700976] Freeing initrd memory: 156K
+<6>[    0.701664] PMU: registered new PMU device of type 0
+<6>[    0.702306] smd probe
+<6>[    0.702354] smd_core_init()
+<6>[    0.702560] smd_core_init() done
+<6>[    0.702594] smd_alloc_loopback_channel: 'local_loopback' cid=100
+<6>[    0.715009] SMD Packet Port Driver Initialized.
+<6>[    0.716536] snd_extamp_api_Init: Init max9879
+<6>[    0.716854] snd_extamp_write_all_reg: snd_extamp_write_all_reg (No change)  
+<6>[    0.716895] max9879_probe: External AMP status:0 -> rc:0
+<6>[    0.726396] mvs_pcm_misc_device_init: mvs_pcm_misc_device_init
+<6>[    0.726624] mvs_amr_misc_device_init: mvs_amr_misc_device_init
+<5>[    0.729186] msm_rpm_log_probe: OK
+<6>[    0.730203] Android kernel / Modem panic handler initialized 
+<6>[    0.730236] panmac init
+<4>[    0.756867] highmem bounce pool size: 64 pages
+<6>[    0.757250] ashmem: initialized
+<5>[    0.759567] Slow work thread pool: Starting up
+<5>[    0.759961] Slow work thread pool: Ready
+<6>[    0.760031] msgmni has been set to 704
+<6>[    0.765890] alg: No test for stdrng (krng)
+<6>[    0.766202] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+<6>[    0.766246] io scheduler noop registered
+<6>[    0.766276] io scheduler deadline registered
+<6>[    0.766322] io scheduler cfq registered
+<6>[    0.766350] io scheduler vr registered
+<6>[    0.766379] io scheduler sio registered (default)
+<6>[    0.769092] msm_fb_probe:  phy_Addr = 0x41a33000 virt = 0xe1c00000
+<6>[    0.770806] MDP HW Base phy_Address = 0x5100000 virt = 0xe1900000
+<6>[    0.772469] mdp_clk: mdp_clk=59080000
+<6>[    0.779759] mdp4_fetch_cfg: dmap=27 vg=43
+<6>[    0.781023] mipi_dsi base phy_addr = 0x4700000 virt = 0xe1a00000
+<6>[    0.781059] msm_mmss_cc base = 0xfa014000
+<6>[    0.781103] mmss_sfpb  base phy_addr = 0x5700000 virt = 0xe18b0000
+<6>[    0.781408] [LIVED] mipi_magna_lcd_init start
+<6>[    0.781469] [LIVED] msm_reset_reason_read_only:reason[77665501],result[0]
+<6>[    0.781503] [LIVED] mipi_magna_lcd_init exit 
+<6>[    0.783587] mdp4_display_intf_sel: 0x49
+<6>[    0.789653] FrameBuffer[0] 480x800 size=3072000 bytes is registered successfully!
+<6>[    0.789789] [allydrop] msm_reset_reason:reason[77665501],result[0]
+<4>[    0.789901] load_565rle_image: Can not open /initlogo.rle
+<6>[    0.789952] [LIVED] msm_reset_reason_clear
+<7>[    0.790612] Registered led device: lcd-backlight
+<6>[    0.792354] 
+<6>[    0.792367]  msm_vidc_dec: Inside vid_dec_init()
+<6>[    0.792779] 
+<6>[    0.792791]  msm_vidc_dec: Inside vid_dec_vcd_init()
+<6>[    0.792852] 
+<6>[    0.792863]  msm_vidc_enc: Inside vid_enc_init()
+<6>[    0.793209] 
+<6>[    0.793220]  msm_vidc_enc: Inside vid_enc_vcd_init()
+<3>[    0.793268] 
+<3>[    0.793278]  err: Device config mismatch
+<6>[    1.071514] msm_serial_hs.0: ttyHS0 at MMIO 0x16540000 (irq = 188) is a MSM HS UART
+<6>[    1.072936] msm_serial_hs module loaded
+<6>[    1.073186] msm_serial_hsl: detected port #0
+<6>[    1.073341] msm_serial_hsl.0: ttyHSL0 at MMIO 0x19c40000 (irq = 227) is a MSM
+<6>[    1.074463] msm_serial_hsl: console setup on port #0
+<6>[    1.074913] console [ttyHSL0] enabled
+<6>[    1.076355] msm_serial_hsl: driver initialized
+<6>[    1.089659] brd: module loaded
+<6>[    1.096627] loop: module loaded
+<6>[    1.097007] pmem: Initializing pmem_kernel_ebi1 (in-kernel)
+<6>[    1.097192] pmem: Initializing pmem_kernel_smi (in-kernel)
+<6>[    1.097337] pmem: Initializing pmem (user-space) as cached
+<6>[    1.099583] pmem: Initializing pmem_adsp (user-space) as non-cached
+<6>[    1.101666] pmem: Initializing pmem_audio (user-space) as non-cached
+<6>[    1.102484] pmem: Initializing pmem_smipool (user-space) as non-cached
+<6>[    1.106221] Loading pn544 driver
+<6>[    1.106907] pn544_probe : requesting IRQ 352
+<6>[    1.107956] msm_tsif msm_tsif.0: remapped phys 0x18201000 => virt e18d8000
+<6>[    1.108455] msm_tsif msm_tsif.0: Configured irq 196 memory 0x18201000 DMA 4 CRCI 6
+<6>[    1.108876] tsif_init_one[0]
+<6>[    1.109501] tsif tsif0: Device 241.0 attached to TSIF, buffer size 0
+<5>[    1.111645] pmic8058_upl_probe: OK
+<5>[    1.113462] pmic8058_misc_probe: OK
+<6>[    1.120465] adie_codec_register_codec_operations: codec type 1
+<6>[    1.122477] SCSI Media Changer driver v0.25 
+<6>[    1.123433] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+<6>[    1.123476] CSLIP: code copyright 1989 Regents of the University of California.
+<4>[    1.126169] rmnet_init
+<6>[    1.141916] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    1.142402] host driver registered w/ tranceiver
+<6>[    1.142830] usbcore: registered new interface driver cdc_acm
+<6>[    1.142862] cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    1.142900] Initializing USB Mass Storage driver...
+<6>[    1.143077] usbcore: registered new interface driver usb-storage
+<6>[    1.143108] USB Mass Storage support registered.
+<6>[    1.143240] usbcore: registered new interface driver ums-alauda
+<6>[    1.143376] usbcore: registered new interface driver ums-cypress
+<6>[    1.143530] usbcore: registered new interface driver ums-datafab
+<6>[    1.143670] usbcore: registered new interface driver ums-freecom
+<6>[    1.143808] usbcore: registered new interface driver ums-isd200
+<6>[    1.143946] usbcore: registered new interface driver ums-jumpshot
+<6>[    1.144090] usbcore: registered new interface driver ums-karma
+<6>[    1.144229] usbcore: registered new interface driver ums-onetouch
+<6>[    1.144368] usbcore: registered new interface driver ums-sddr09
+<6>[    1.144509] usbcore: registered new interface driver ums-sddr55
+<6>[    1.144648] usbcore: registered new interface driver ums-usbat
+<6>[    1.144788] usbcore: registered new interface driver usb_ehset_test
+<6>[    1.145553] peripheral driver registered w/ tranceiver
+<6>[    1.146842] android_usb gadget: android_usb ready
+<6>[    1.149211] pantech_obex init
+<4>[    1.149300] android_usb gadget: using random self ethernet address
+<4>[    1.149359] android_usb gadget: using random host ethernet address
+<6>[    1.150300] usb0: MAC ae:fa:16:2d:bb:38
+<6>[    1.150333] usb0: HOST MAC ea:5a:36:b2:33:da
+<3>[    1.152952] pantech_obex_bind_config
+<3>[    1.152983] pantech_obex_function_init
+<6>[    1.153443] obex_function_add
+<6>[    1.155628] diagfwd initializing ..
+<6>[    1.156697] diagchar initializing ..
+<6>[    1.157439] diagchar initialized
+<6>[    1.158337] mice: PS/2 mouse device common for all mice
+<6>[    1.159571] input: surf_keypad as /devices/i2c-6/6-0055/pm8058-keypad/input/input0
+<6>[    1.161662] cyttsp_init:Cypress TrueTouch(R) Standard Product I2C Touchscreen Driver (Built Feb  9 2012 @ 21:14:18)
+<6>[    1.161805] cyttsp_probe:Start Probe
+<6>[    1.265111] cyttsp_initialize:cyttsp-i2c: Register input device
+<6>[    1.265683] input: cyttsp-i2c as /devices/i2c-3/3-0020/input/input1
+<6>[    1.266703] cyttsp_initialize:Setting up interrupt
+<6>[    1.266947] cyttsp_initialize:cyttsp-i2c: Successful registration
+<6>[    1.267442] cyttsp_probe:Start Probe PASS
+<6>[    1.270117] input: pmic8058_pwrkey as /devices/i2c-6/6-0055/pm8058-pwrkey/input/input2
+<4>[    1.272170] apds9900_get_available : ret = 0 / id = 0x29
+<6>[    1.274072] input: proximity as /devices/virtual/input/input3
+<6>[    1.276553] input: ambientlight as /devices/virtual/input/input4
+<6>[    1.277348] i2c i2c-2: mpu3050: +bma150
+<4>[    1.277383] i2c i2c-2: WARNING: Accel irq not assigned
+<6>[    1.277416] i2c i2c-2: mpu3050: +yas529
+<4>[    1.277445] i2c i2c-2: WARNING: Compass irq not assigned
+<4>[    1.277478] i2c i2c-2: mpu3050: No Pressure Present
+<6>[    1.297457] i2c i2c-2: Installing irq using 286
+<6>[    1.297493] i2c i2c-2: Module Param interface = mpuirq
+<7>[    1.298448] mpu_init
+<6>[    1.299081] input: geomagnetic as /devices/i2c-2/2-002e/input/input5
+<6>[    1.300154] input: geomagnetic_raw as /devices/i2c-2/2-002e/input/input6
+<6>[    1.303874] using rtc device, pm8058_rtc0, for alarms
+<6>[    1.303957] pm8058-rtc pm8058-rtc: rtc core: registered pm8058_rtc0 as rtc0
+<6>[    1.304357] i2c /dev entries driver
+<6>[    1.311092] IR NEC protocol handler initialized
+<6>[    1.311125] IR RC5(x) protocol handler initialized
+<6>[    1.311154] IR RC6 protocol handler initialized
+<6>[    1.311182] IR JVC protocol handler initialized
+<6>[    1.311209] IR Sony protocol handler initialized
+<6>[    1.311236] Linux video capture interface: v2.00
+<6>[    1.312540] usbcore: registered new interface driver uvcvideo
+<6>[    1.312570] USB Video Class driver (v0.1.0)
+<3>[    1.313651] Camera: drivers/media/video/msm/icp_hd.c icp_hd_init:4255
+<3>[    1.313673] 
+<3>[    1.313948] Camera: drivers/media/video/msm/icp_hd.c __icp_hd_probe:4241
+<3>[    1.313970] 
+<3>[    1.317279] Camera: drivers/media/video/msm/icp_hd.c icp_hd_sensor_probe:4206
+<3>[    1.317302] 
+<3>[    1.317328] Camera: icp_hd_init_i2c start
+<3>[    1.317344] 
+<3>[    1.317459] Camera: drivers/media/video/msm/icp_hd.c icp_hd_i2c_probe:4141
+<3>[    1.317480] 
+<3>[    1.317504] Camera: icp_hd_probe succeeded!
+<3>[    1.317520] 
+<3>[    1.317740] Camera: icp_hd_init_i2c icp_hd_i2c_driver rc = 0
+<3>[    1.317759] 
+<3>[    1.317782] Camera: icp_hd_init_i2c end
+<3>[    1.317797] 
+<3>[    1.317823] Camera: drivers/media/video/msm/icp_hd.c icp_hd_sensor_probe Success!:4231
+<3>[    1.317846] 
+<6>[    1.320289] msm_sync_init: initialized icp_hd
+<3>[    1.322246] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_init:1877
+<3>[    1.322270] 
+<3>[    1.322588] Camera: drivers/media/video/msm/s5k6aafx13.c __s5k6aafx13_probe:1863
+<3>[    1.322612] 
+<3>[    1.325301] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_sensor_probe:1810
+<3>[    1.325326] 
+<3>[    1.325351] Camera: s5k6aafx13_init_i2c start
+<3>[    1.325367] 
+<3>[    1.325486] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_i2c_probe:1743
+<3>[    1.325508] 
+<3>[    1.325536] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_i2c_probe:1749
+<3>[    1.325558] 
+<3>[    1.325585] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_i2c_probe:1752
+<3>[    1.325607] 
+<3>[    1.325633] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_i2c_probe:1757
+<3>[    1.325655] 
+<3>[    1.325678] Camera: s5k6aafx13_probe succeeded!
+<3>[    1.325694] 
+<3>[    1.325918] Camera: s5k6aafx13_init_i2c s5k6aafx13_i2c_driver rc = 0
+<3>[    1.325939] 
+<3>[    1.325961] Camera: s5k6aafx13_init_i2c end
+<3>[    1.325977] 
+<3>[    1.326002] Camera: drivers/media/video/msm/s5k6aafx13.c s5k6aafx13_sensor_probe:1857
+<3>[    1.326025] 
+<6>[    1.328486] msm_sync_init: initialized s5k6aafx13
+<6>[    1.331217] msm_gemini_init gemini: success
+<4>[    1.331752] [MAX17040 SLEEP] [MAX17040] max17040_probe [IN]
+<4>[    1.332563] [MAX17040 SLEEP] MAX17040 SET_RCOMP TRY : [0]
+<4>[    1.334592] [MAX17040 SLEEP] MAX17040_QUICK  LOW MSB [199] : LSB [96] : LOW VOLTAGE [3190]
+<4>[    1.334634] [MAX17040 SLEEP] MAX17040_QUICK  Adjusted [39875] : I2C Error Count [0]
+<4>[    1.335695] [MAX17040 SLEEP] MAX17040_QUICK Adjusted SOC MSB [85] : LSB [50] : Adjusted SOC [85195] :Try Count [0]
+<4>[    1.335752] [MAX17040 SLEEP] [QUICK DISABLE] voltage : [39875]mv, soc : [85195], index [1], sky_high_soc [89], sky_low_soc [72] 
+<4>[    1.335803] [MAX17040 SLEEP] [QUICK DISABLE] ref_soc : [89818], high_soc : [119818], low_soc : [59818]
+<6>[    1.336288] input: max17040 as /devices/virtual/input/input7
+<4>[    1.336897] [MAX17040 SLEEP] [MAX17040] max17040_probe [OUT]
+<4>[    1.339252] [MAX17040 SLEEP] MAX17040_WORK SOC [90] prev[0] : voltage [3987] : charger_state [0] : i2c state [0]
+<6>[    1.349754] msm_adc successfully registered
+<5>[    1.351518] pmic8901_tm_probe: OK
+<6>[    1.377658] [SKY CHG]Charging with 0mA current, charge_type 3
+<6>[    1.387605] pmic8058_xoadc:The offset for AMUX calibrationwas -397
+<5>[    1.392611] pmic8058_tm_probe: OK
+<5>[    1.393693] tsens_tm_probe: OK
+<6>[    1.395046] device-mapper: ioctl: 4.17.0-ioctl (2010-03-05) initialised: dm-devel@redhat.com
+<6>[    1.395167] Bluetooth: HCI UART driver ver 2.2
+<6>[    1.395198] Bluetooth: HCI H4 protocol initialized
+<4>[    1.397165] ######## bthid_init: ########
+<4>[    1.397877] ######## bthid_init: done ########
+<6>[    1.517565] [imoseyon] interactiveX enter
+<6>[    1.557565] [imoseyon] brazilianwax enter
+<6>[    1.617593] cpuidle: using governor ladder
+<6>[    1.617629] cpuidle: using governor menu
+<3>[    1.618342] mmc0: No card detect facilities available
+<6>[    1.618760] mmc0: Qualcomm MSM SDCC at 0x0000000012400000 irq 136,0 dma 18
+<6>[    1.618797] mmc0: 8 bit data mode enabled
+<6>[    1.618824] mmc0: 4 bit data mode disabled
+<6>[    1.618852] mmc0: polling status mode disabled
+<6>[    1.618885] mmc0: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.618916] mmc0: Slot eject status = 0
+<6>[    1.618943] mmc0: Power save feature enable = 1
+<6>[    1.618977] mmc0: DM non-cached buffer at ff003000, dma_addr 0x60425000
+<6>[    1.619015] mmc0: DM cmd busaddr 0x60425000, cmdptr busaddr 0x60425300
+<3>[    1.619376] mmc1: No card detect facilities available
+<4>[    1.778775] [MMC] mmc_send_trimsize trim size is 512
+<6>[    1.783174] mmc0: new high speed MMC card at address 0001
+<6>[    1.784851] mmcblk0: mmc0:0001 KYL00M 14.6 GiB 
+<6>[    1.787012]  mmcblk0: p1 p2 p3 p4 < p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 >
+<4>[    1.798303] mmcblk0: p20 size 237568 extends beyond EOD, truncated
+<6>[    1.999440] android_usb gadget: high speed config #1: android
+<7>[    2.000251] diag: USB connected
+<6>[    2.125469] mmc1: Qualcomm MSM SDCC at 0x0000000012180000 irq 134,0 dma 20
+<6>[    2.125513] mmc1: 8 bit data mode disabled
+<4>[    2.125540] (mmc-debug) micro-sd power up
+<6>[    2.125591] mmc1: 4 bit data mode enabled
+<6>[    2.125619] mmc1: polling status mode disabled
+<6>[    2.125677] mmc1: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    2.125714] mmc1: Slot eject status = 0
+<6>[    2.125748] mmc1: Power save feature enable = 1
+<6>[    2.125787] mmc1: DM non-cached buffer at ff004000, dma_addr 0x6042a000
+<6>[    2.125826] mmc1: DM cmd busaddr 0x6042a000, cmdptr busaddr 0x6042a300
+<6>[    2.127813] mmc2: Qualcomm MSM SDCC at 0x00000000121c0000 irq 133,0 dma 21
+<6>[    2.127858] mmc2: 8 bit data mode disabled
+<6>[    2.127887] mmc2: 4 bit data mode enabled
+<6>[    2.127914] mmc2: polling status mode disabled
+<6>[    2.127948] mmc2: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    2.127980] mmc2: Slot eject status = 1
+<6>[    2.128006] mmc2: Power save feature enable = 1
+<6>[    2.128039] mmc2: DM non-cached buffer at ff005000, dma_addr 0x6042c000
+<6>[    2.128076] mmc2: DM cmd busaddr 0x6042c000, cmdptr busaddr 0x6042c300
+<7>[    2.131941] Registered led device: camera:flash0
+<7>[    2.132170] Registered led device: camera:flash1
+<7>[    2.132379] Registered led device: keyboard-backlight
+<6>[    2.141593] usbcore: registered new interface driver usbhid
+<6>[    2.141635] usbhid: USB HID core driver
+<6>[    2.144572] logger: created 64K log 'log_main'
+<6>[    2.145204] logger: created 256K log 'log_events'
+<6>[    2.146105] logger: created 64K log 'log_radio'
+<6>[    2.147003] logger: created 64K log 'log_system'
+<1>[    2.148892] [tdmb_init]
+<1>[    2.149663] [tdmb_init] platform_driver_register tdmb_driver
+<1>[    2.149725] [tdmb_init] registered with DeviceNum [0x ec00000] Major [236], Minor [0]
+<1>[    2.151675] [tdmb_bb_func_tbl_init]~!!!
+<1>[    2.151714] TDMB BB ---> [T3900]
+<1>[    2.151747] [tdmb_gpio_init] tdmb_gpio_init!!!
+<1>[    2.151783] [tdmb_gpio_init] tdmb_gpio_init end cnt[3]!!!
+<1>[    2.152212] [tdmb_i2c_probe] succeed!!!
+<1>[    2.152459] [tdmb_i2c_api_Init] i2c_add_driver!
+<1>[    2.152492] [tdmb_init] tdmb_init end!!!
+<6>[    2.154257] usbcore: registered new interface driver snd-usb-audio
+<4>[    2.155718] No device for DAI CODEC_DAI
+<4>[    2.155767] No device for DAI CPU_DAI
+<3>[    2.158482] msm_soc: create pcms
+<6>[    2.159111] asoc: CODEC_DAI <-> CPU_DAI mapping ok
+<4>[    2.164161] No device for DAI MVS_CODEC_DAI
+<4>[    2.164207] No device for DAI MVS_CPU_DAI
+<6>[    2.166974] asoc: MVS_CODEC_DAI <-> MVS_CPU_DAI mapping ok
+<6>[    2.171087] ALSA device list:
+<6>[    2.171124]   #0: msm-audio (MSM-CARD)
+<6>[    2.171152]   #1: msm-voip (MSM-MVS-CARD)
+<6>[    2.171592] u32 classifier
+<6>[    2.171626]     Actions configured
+<6>[    2.171686] Netfilter messages via NETLINK v0.30.
+<6>[    2.172099] nf_conntrack version 0.5.0 (13539 buckets, 54156 max)
+<6>[    2.173355] ctnetlink v0.93: registering with nfnetlink.
+<6>[    2.173839] xt_time: kernel timezone is -0000
+<6>[    2.174623] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    2.175380] arp_tables: (C) 2002 David S. Miller
+<6>[    2.175636] TCP cubic registered
+<6>[    2.175958] NET: Registered protocol family 10
+<6>[    2.182991] Mobile IPv6
+<6>[    2.183231] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    2.183639] IPv6 over IPv4 tunneling driver
+<6>[    2.186469] NET: Registered protocol family 17
+<6>[    2.188736] Bluetooth: L2CAP ver 2.14
+<6>[    2.188772] Bluetooth: L2CAP socket layer initialized
+<6>[    2.189036] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[    2.189063] Bluetooth: SCO socket layer initialized
+<6>[    2.189577] Bluetooth: RFCOMM TTY layer initialized
+<6>[    2.189640] Bluetooth: RFCOMM socket layer initialized
+<6>[    2.189674] Bluetooth: RFCOMM ver 1.11
+<6>[    2.189710] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    2.189739] Bluetooth: BNEP filters: protocol multicast
+<6>[    2.189778] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<4>[    2.198287] local_clk_disable_reg: clock 33 status stuck at 'on' (bit 4 of 0xfa012fd4).
+<6>[    2.219174] cpufreq: cpu0 init at 310500 switching to 192000
+<6>[    2.221237] cpufreq: cpu1 init at 310500 switching to 192000
+<6>[    2.225559] input: 8k_handset as /devices/virtual/input/input8
+<3>[    2.226653] hs_rpc_cb_init: Incompatible RPC version error -113
+<3>[    2.226709] hs_rpc_init: failed to initialize rpc client, try server...
+<6>[    2.238220] MSM Watchdog Initialized
+<6>[    2.238864] msm_sleep_stats: Initializing sleep stats for CPU[0]
+<6>[    2.239070] msm_sleep_stats: Initializing sleep stats for CPU[1]
+<3>[    2.239269] pantech_debug_opt_init is called
+<3>[    2.239886] pantech_debug_probe is called
+<6>[    2.240180] Registered pansw device: dip
+<6>[    2.240430] VFP support v0.3: implementor 51 architecture 64 part 2d variant 0 rev 0
+<3>[    2.244585] kgsl kgsl: |kgsl_ptpool_init| Page table pool too big.  Limiting to 31 processes
+<6>[    2.270225] input: 8660_handset as /devices/i2c-6/6-0055/pm8058-othc.1/input/input9
+<6>[    2.272214] pm8058-rtc pm8058-rtc: setting system clock to 1970-08-11 04:30:07 UTC (19197007)
+<6>[    2.272291] msm_v4l2: msm_v4l2_init
+<6>[    2.298239] pm8058_is_battery_present: batt_id is 54
+<6>[    2.299066] pm8058-charger pm8058-charger: pm8058_chg_determine_initial_state charger present
+<6>[    2.299557] msm-charger msm-charger: [SKY CHG]handle_event 0 from pm8058-usb
+<3>[    2.311591] init: /init.qcom.rc: 172: ignored duplicate definition of service 'bluetoothd'
+<3>[    2.312260] init: /init.qcom.rc: 249: invalid command '/system/bin/log'
+<3>[    2.313206] init: /init.target.rc: 76: invalid command 'devwait'
+<3>[    2.313527] init: /init.target.rc: 96: ignored duplicate definition of service 'thermald'
+<6>[    2.318072] pm8058_is_battery_present: batt_id is 54
+<6>[    2.491442] init: command 'loglevel' r=0
+<6>[    2.491527] init: command 'export' r=0
+<6>[    2.491597] init: command 'export' r=0
+<6>[    2.491662] init: command 'export' r=0
+<6>[    2.491728] init: command 'export' r=0
+<6>[    2.491794] init: command 'export' r=0
+<6>[    2.491859] init: command 'export' r=0
+<6>[    2.491924] init: command 'export' r=0
+<6>[    2.491990] init: command 'export' r=0
+<6>[    2.492055] init: command 'export' r=0
+<6>[    2.492120] init: command 'export' r=0
+<6>[    2.492186] init: command 'export' r=0
+<6>[    2.492252] init: command 'export' r=0
+<6>[    2.492324] init: command 'export' r=0
+<6>[    2.492554] init: command 'symlink' r=0
+<6>[    2.492808] init: command 'mount' r=0
+<6>[    2.492978] init: command 'symlink' r=0
+<6>[    2.493125] init: command 'mkdir' r=0
+<6>[    2.493265] init: command 'mkdir' r=0
+<6>[    2.493363] init: command 'mkdir' r=0
+<6>[    2.518040] init: command 'mount' r=0
+<6>[    2.518548] init: command 'mkdir' r=0
+<6>[    2.518761] init: command 'symlink' r=0
+<6>[    2.518868] init: command 'mkdir' r=-17
+<6>[    2.518959] init: command 'mkdir' r=-17
+<6>[    2.519109] init: command 'mkdir' r=0
+<6>[    2.519253] init: command 'mkdir' r=0
+<6>[    2.519393] init: command 'mkdir' r=0
+<6>[    2.519484] init: command 'mkdir' r=-17
+<6>[    2.519631] init: command 'mkdir' r=0
+<6>[    2.519787] init: command 'mkdir' r=0
+<6>[    2.519942] init: command 'mkdir' r=0
+<6>[    2.520090] init: command 'mkdir' r=0
+<6>[    2.520524] init: command 'mount' r=0
+<6>[    2.520689] init: command 'mkdir' r=0
+<6>[    2.521083] init: command 'mount' r=0
+<6>[    2.521443] init: command 'write' r=0
+<6>[    2.521814] init: command 'write' r=-2
+<6>[    2.522070] init: command 'write' r=0
+<6>[    2.522376] init: command 'write' r=-2
+<6>[    2.522669] init: command 'write' r=-2
+<6>[    2.522958] init: command 'write' r=-2
+<6>[    2.523153] init: command 'write' r=0
+<6>[    2.523350] init: command 'write' r=0
+<6>[    2.523481] init: command 'mkdir' r=0
+<6>[    2.548023] init: command 'mount' r=0
+<6>[    2.548171] init: command 'chown' r=0
+<6>[    2.548286] init: command 'chown' r=0
+<6>[    2.548396] init: command 'chmod' r=0
+<6>[    2.548558] init: command 'write' r=-22
+<6>[    2.548909] init: command 'mkdir' r=0
+<6>[    2.549039] init: command 'chown' r=0
+<6>[    2.549155] init: command 'chmod' r=0
+<6>[    2.549306] init: command 'write' r=0
+<6>[    2.549646] init: command 'mkdir' r=0
+<6>[    2.549774] init: command 'chown' r=0
+<6>[    2.549890] init: command 'chmod' r=0
+<6>[    2.577757] init: command 'write' r=0
+<6>[    2.577836] init: processing action 0x294c0 (emmc-fs)
+<6>[    2.577966] init: command 'wait' r=0
+<6>[    2.607723] msm_hsusb msm_hsusb: [SKY CHG]usb_chg_detect 7, chg_type 0
+<6>[    2.607794] [SKY CHG]Charging with 500mA current, charge_type 0
+<6>[    2.607963] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    2.610697] pm8058_is_factory_cable: cable_mv is 3514
+<6>[    2.620049] EXT4-fs (mmcblk0p13): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[    2.620240] init: command 'mount' r=0
+<6>[    2.620431] init: command 'wait' r=0
+<6>[    2.630448] pm8058_is_battery_present: batt_id is 54
+<6>[    2.630515] msm-charger msm-charger: handle_charger_ready: best charger = pm8058-usb
+<6>[    2.630584] pm8058-charger pm8058-charger: pm8058_start_charging pm8058_start_charging : current 500 
+<6>[    2.633213] init: command 'exec' r=0
+<6>[    2.633268] pm8058_is_factory_cable: cable_mv is 3185
+<6>[    2.633423] pm8058-charger pm8058-charger: __pm8058_start_charging 400mA 512min
+<6>[    2.634282] pm8058-charger pm8058-charger: pm8058_chg_fastchg_handler begin fast charging
+<6>[    2.634354] pm8058-charger pm8058-charger: [SKY CHG]pm8058_chg_fastchg_handler begin fast charging, set current 400
+<6>[    2.634424] [SKY_CHG] pm_chg_imaxsel_set: 400
+<6>[    2.657810] msm-charger msm-charger: handle_charger_ready: starting safety timer
+<6>[    2.657959] msm-charger msm-charger: [SKY CHG]handle_event 4 from pm8058-usb
+<4>[    2.695359] (mmc-debug) micro-sd power up
+<6>[    2.778727] init: command 'exec' r=0
+<6>[    2.792467] EXT4-fs (mmcblk0p14): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[    2.792511] init: command 'mount' r=0
+<7>[    2.804560] gpio_request: gpio-251 (SD_WP_Switch) status -22
+<3>[    2.804592] msm_sdc3_get_wpswitch:Failed to request GPIO 251
+<4>[    2.804620] mmc1: host does not support reading read-only switch. assuming write-enable.
+<6>[    2.804680] mmc1: new SD card at address aaaa
+<6>[    2.806202] mmcblk1: mmc1:aaaa SU02G 1.89 GiB 
+<6>[    2.807612]  mmcblk1: p1
+<6>[    2.818585] EXT4-fs (mmcblk0p14): re-mounted. Opts: noauto_da_alloc
+<6>[    2.818736] init: command 'mount' r=0
+<6>[    2.819459] EXT4-fs (mmcblk0p14): re-mounted. Opts: discard
+<6>[    2.819572] init: command 'mount' r=0
+<6>[    2.819703] init: command 'wait' r=0
+<6>[    2.820913] init: command 'exec' r=0
+<6>[    2.912712] init: command 'exec' r=0
+<4>[    2.937855] EXT4-fs (mmcblk0p15): warning: mounting fs with errors, running e2fsck is recommended
+<6>[    2.942782] EXT4-fs (mmcblk0p15): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[    2.942956] init: command 'mount' r=0
+<6>[    2.943120] init: command 'wait' r=0
+<6>[    2.944367] init: command 'exec' r=0
+<6>[    3.076154] init: command 'exec' r=0
+<6>[    3.120471] EXT4-fs (mmcblk0p16): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[    3.120670] init: command 'mount' r=0
+<6>[    3.120859] init: command 'wait' r=0
+<6>[    3.122089] init: command 'exec' r=0
+<6>[    3.122339] init: command 'wait' r=0
+<6>[    3.123482] init: command 'exec' r=0
+<6>[    3.123804] init: processing action 0x323a8 (emmc-fs)
+<6>[    3.124696] EXT4-fs (mmcblk0p13): re-mounted. Opts: barrier=0
+<6>[    3.124820] init: command 'mount' r=0
+<6>[    3.129686] init: command 'mkdir' r=0
+<6>[    3.155421] init: command 'mount' r=0
+<6>[    3.406489] init: command 'exec' r=0
+<6>[    3.491303] EXT4-fs (mmcblk0p13): re-mounted. Opts: barrier=0
+<6>[    3.493868] init: command 'mount' r=0
+<6>[    3.494088] init: processing action 0x29848 (post-fs)
+<6>[    3.494219] init: command 'mount' r=0
+<6>[    3.494480] init: command 'chown' r=0
+<6>[    3.494635] init: command 'chmod' r=0
+<6>[    3.508017] init: command 'mount' r=-1
+<6>[    3.509447] init: command 'mount' r=-1
+<6>[    3.509703] init: command 'chown' r=0
+<6>[    3.509853] init: command 'chmod' r=0
+<6>[    3.510170] init: command 'chmod' r=0
+<6>[    3.510402] init: command 'chmod' r=-2
+<6>[    3.510662] init: command 'chmod' r=0
+<6>[    3.510857] init: command 'chmod' r=0
+<6>[    3.511022] init: command 'chown' r=0
+<6>[    3.511206] init: command 'chown' r=-2
+<6>[    3.511371] init: command 'chown' r=0
+<6>[    3.511527] init: command 'chown' r=0
+<6>[    3.520967] init: command 'mkdir' r=-17
+<6>[    3.521263] init: command 'chown' r=0
+<6>[    3.521422] init: command 'chmod' r=0
+<6>[    3.521579] init: command 'copy' r=-1
+<6>[    3.522682] init: command 'chown' r=-2
+<6>[    3.522802] init: command 'chmod' r=-2
+<6>[    3.522915] init: command 'copy' r=-1
+<6>[    3.523045] init: command 'chown' r=-2
+<6>[    3.523147] init: command 'chmod' r=-2
+<6>[    3.523290] init: command 'write' r=-2
+<6>[    3.523503] init: command 'chown' r=0
+<6>[    3.523650] init: command 'chmod' r=0
+<6>[    3.525466] init: command 'chown' r=0
+<6>[    3.525626] init: command 'chmod' r=0
+<6>[    3.525811] init: command 'chown' r=0
+<6>[    3.525967] init: command 'chmod' r=0
+<6>[    3.526115] init: command 'chown' r=0
+<6>[    3.526260] init: command 'chmod' r=0
+<6>[    3.526406] init: command 'chown' r=0
+<6>[    3.526549] init: command 'chmod' r=0
+<6>[    3.534814] init: command 'mkdir' r=-17
+<6>[    3.536072] init: command 'mkdir' r=-17
+<6>[    3.536250] init: command 'mkdir' r=-17
+<6>[    3.536413] init: command 'mkdir' r=-17
+<6>[    3.536570] init: command 'mkdir' r=-17
+<6>[    3.536730] init: command 'mkdir' r=-17
+<6>[    3.537880] init: command 'mkdir' r=-17
+<6>[    3.538116] init: command 'mkdir' r=-17
+<6>[    3.538333] init: command 'chmod' r=0
+<6>[    3.539459] init: command 'mkdir' r=-17
+<6>[    3.540741] init: command 'chown' r=-2
+<6>[    3.540875] init: command 'chmod' r=-2
+<6>[    3.541015] init: command 'chmod' r=-2
+<6>[    3.541111] init: command 'chmod' r=-2
+<6>[    3.541285] init: command 'mkdir' r=-17
+<6>[    3.541396] init: command 'mkdir' r=-17
+<6>[    3.541559] init: command 'mkdir' r=-17
+<6>[    3.541736] init: command 'mkdir' r=-17
+<6>[    3.541896] init: command 'chmod' r=0
+<6>[    3.542054] init: command 'chmod' r=-2
+<6>[    3.550020] init: command 'mkdir' r=-17
+<6>[    3.551260] init: command 'mkdir' r=-17
+<6>[    3.551439] init: command 'mkdir' r=-17
+<6>[    3.559800] init: command 'mkdir' r=-17
+<6>[    3.567904] init: command 'mkdir' r=-17
+<6>[    3.576660] init: command 'mkdir' r=-17
+<6>[    3.585156] init: command 'mkdir' r=-17
+<6>[    3.585389] init: command 'copy' r=-1
+<6>[    3.585642] init: command 'mkdir' r=-17
+<6>[    3.585832] init: command 'mkdir' r=-17
+<6>[    3.586032] init: command 'chown' r=0
+<6>[    3.586185] init: command 'chmod' r=0
+<6>[    3.586353] init: command 'mkdir' r=-17
+<6>[    3.586514] init: command 'chown' r=0
+<6>[    3.586662] init: command 'chmod' r=0
+<6>[    3.586833] init: command 'mkdir' r=-17
+<6>[    3.586990] init: command 'mkdir' r=-17
+<6>[    3.587148] init: command 'chown' r=0
+<6>[    3.587292] init: command 'chmod' r=0
+<6>[    3.587438] init: command 'chown' r=0
+<6>[    3.587800] init: command 'chmod' r=0
+<6>[    3.587879] init: processing action 0x32b38 (property_service_init)
+<6>[    3.609281] init: Created socket '/dev/socket/property_service' with mode '666', user '0', group '0'
+<6>[    3.609400] init: command 'property_service_init' r=0
+<6>[    3.609511] init: processing action 0x32b80 (signal_init)
+<6>[    3.609703] init: command 'signal_init' r=0
+<6>[    3.609863] init: processing action 0x32bc8 (check_startup)
+<6>[    3.609927] init: command 'check_startup' r=0
+<6>[    3.610056] init: processing action 0x2a520 (boot)
+<6>[    3.612664] init: command 'ifup' r=0
+<6>[    3.612973] init: command 'hostname' r=0
+<6>[    3.613204] init: command 'domainname' r=0
+<6>[    3.613330] init: command 'setrlimit' r=0
+<6>[    3.613412] init: command 'setrlimit' r=0
+<6>[    3.613545] init: command 'setprop' r=0
+<6>[    3.613668] init: command 'setprop' r=0
+<6>[    3.613788] init: command 'setprop' r=0
+<6>[    3.613909] init: command 'setprop' r=0
+<6>[    3.614030] init: command 'setprop' r=0
+<6>[    3.614150] init: command 'setprop' r=0
+<6>[    3.614269] init: command 'setprop' r=0
+<6>[    3.614390] init: command 'setprop' r=0
+<6>[    3.614514] init: command 'setprop' r=0
+<6>[    3.614636] init: command 'setprop' r=0
+<6>[    3.614757] init: command 'setprop' r=0
+<6>[    3.614878] init: command 'setprop' r=0
+<6>[    3.615000] init: command 'setprop' r=0
+<6>[    3.615128] init: command 'setprop' r=0
+<6>[    3.615254] init: command 'setprop' r=0
+<6>[    3.615378] init: command 'setprop' r=0
+<6>[    3.615501] init: command 'setprop' r=0
+<6>[    3.615625] init: command 'setprop' r=0
+<6>[    3.616084] init: command 'write' r=0
+<6>[    3.616349] init: command 'write' r=0
+<6>[    3.616567] init: command 'write' r=0
+<6>[    3.616764] init: command 'write' r=0
+<6>[    3.617042] init: command 'write' r=0
+<6>[    3.617212] init: command 'write' r=-2
+<6>[    3.617364] init: command 'write' r=-2
+<6>[    3.617875] init: command 'write' r=0
+<6>[    3.618102] init: command 'write' r=0
+<6>[    3.618321] init: command 'write' r=0
+<6>[    3.677765] init: command 'write' r=0
+<6>[    3.678019] init: command 'write' r=0
+<6>[    3.678462] init: command 'write' r=0
+<6>[    3.678613] init: command 'setprop' r=0
+<6>[    3.678757] init: command 'chown' r=-2
+<6>[    3.678869] init: command 'chown' r=-2
+<6>[    3.679002] init: command 'chown' r=-2
+<6>[    3.679114] init: command 'chown' r=-2
+<6>[    3.679220] init: command 'chown' r=-2
+<6>[    3.679401] init: command 'chown' r=0
+<6>[    3.679556] init: command 'chown' r=0
+<6>[    3.679703] init: command 'chown' r=0
+<6>[    3.679862] init: command 'chown' r=-2
+<6>[    3.679973] init: command 'chmod' r=-2
+<6>[    3.680079] init: command 'chmod' r=-2
+<6>[    3.680189] init: command 'chown' r=-2
+<6>[    3.680296] init: command 'chown' r=-2
+<6>[    3.680402] init: command 'chown' r=-2
+<6>[    3.680507] init: command 'chown' r=-2
+<6>[    3.680612] init: command 'chown' r=-2
+<6>[    3.680718] init: command 'chown' r=-2
+<6>[    3.680877] init: command 'chown' r=-2
+<6>[    3.681002] init: command 'chmod' r=0
+<6>[    3.681123] init: command 'chmod' r=0
+<6>[    3.681239] init: command 'chmod' r=0
+<6>[    3.681348] init: command 'chown' r=-2
+<6>[    3.681660] init: command 'chown' r=0
+<6>[    3.681815] init: command 'chown' r=-2
+<6>[    3.682131] init: command 'chown' r=0
+<6>[    3.682456] init: command 'chown' r=0
+<6>[    3.682608] init: command 'chown' r=-2
+<6>[    3.682734] init: command 'chown' r=-2
+<6>[    3.682860] init: command 'chown' r=-2
+<6>[    3.682984] init: command 'chown' r=-2
+<6>[    3.683108] init: command 'chown' r=-2
+<6>[    3.683230] init: command 'chown' r=-2
+<6>[    3.683354] init: command 'chown' r=-2
+<6>[    3.683476] init: command 'chown' r=-2
+<6>[    3.683599] init: command 'chown' r=-2
+<6>[    3.683722] init: command 'chown' r=-2
+<6>[    3.683845] init: command 'chown' r=-2
+<6>[    3.683967] init: command 'chown' r=-2
+<6>[    3.684090] init: command 'chown' r=-2
+<6>[    3.684212] init: command 'chown' r=-2
+<6>[    3.684334] init: command 'chown' r=-2
+<6>[    3.684569] init: command 'chown' r=0
+<6>[    3.684808] init: command 'chown' r=0
+<6>[    3.685069] init: command 'chown' r=0
+<6>[    3.685238] init: command 'chown' r=0
+<6>[    3.685396] init: command 'chown' r=0
+<6>[    3.685549] init: command 'chown' r=0
+<6>[    3.685702] init: command 'chown' r=0
+<6>[    3.685856] init: command 'chown' r=0
+<6>[    3.686046] init: command 'chown' r=0
+<6>[    3.686209] init: command 'chown' r=-2
+<6>[    3.686341] init: command 'chown' r=-2
+<6>[    3.686464] init: command 'chown' r=-2
+<6>[    3.686588] init: command 'chown' r=-2
+<6>[    3.686714] init: command 'chown' r=-2
+<6>[    3.686840] init: command 'chown' r=-2
+<6>[    3.686966] init: command 'chown' r=-2
+<6>[    3.687089] init: command 'chown' r=-2
+<6>[    3.687214] init: command 'chown' r=-2
+<6>[    3.687337] init: command 'chown' r=-2
+<6>[    3.687462] init: command 'chown' r=-2
+<6>[    3.690830] init: command 'chown' r=-2
+<6>[    3.690848] init: command 'chown' r=-2
+<6>[    3.690864] init: command 'chown' r=-2
+<6>[    3.690881] init: command 'chown' r=-2
+<6>[    3.690902] init: command 'chown' r=-2
+<6>[    3.690918] init: command 'chown' r=-2
+<6>[    3.690960] init: command 'chown' r=-2
+<6>[    3.690980] init: command 'chown' r=-2
+<6>[    3.690994] init: command 'chmod' r=-2
+<6>[    3.691009] init: command 'chown' r=-2
+<6>[    3.691022] init: command 'chmod' r=-2
+<6>[    3.691042] init: command 'chown' r=-2
+<6>[    3.691058] init: command 'chown' r=-2
+<6>[    3.691072] init: command 'chown' r=-2
+<6>[    3.691085] init: command 'chown' r=-2
+<6>[    3.691099] init: command 'chown' r=-2
+<6>[    3.691114] init: command 'chown' r=-2
+<6>[    3.691127] init: command 'chown' r=-2
+<6>[    3.691141] init: command 'chmod' r=-2
+<6>[    3.691154] init: command 'chmod' r=-2
+<6>[    3.691168] init: command 'chmod' r=-2
+<6>[    3.691181] init: command 'chmod' r=-2
+<6>[    3.691195] init: command 'chmod' r=-2
+<6>[    3.691208] init: command 'chmod' r=-2
+<6>[    3.691221] init: command 'chmod' r=-2
+<6>[    3.691235] init: command 'chown' r=-2
+<6>[    3.691248] init: command 'chmod' r=-2
+<6>[    3.691263] init: command 'chown' r=-2
+<6>[    3.691280] init: command 'chown' r=0
+<6>[    3.691295] init: command 'chown' r=-2
+<6>[    3.691309] init: command 'chown' r=-2
+<6>[    3.691324] init: command 'chown' r=-2
+<6>[    3.691338] init: command 'chown' r=-2
+<6>[    3.691350] init: command 'chmod' r=0
+<6>[    3.691364] init: command 'chmod' r=-2
+<6>[    3.691378] init: command 'chmod' r=-2
+<6>[    3.691391] init: command 'chmod' r=-2
+<6>[    3.691404] init: command 'chmod' r=-2
+<6>[    3.691442] init: command 'setprop' r=0
+<6>[    3.691476] init: command 'setprop' r=0
+<6>[    3.691506] init: command 'setprop' r=0
+<6>[    3.691537] init: command 'setprop' r=0
+<6>[    3.691577] init: command 'setprop' r=0
+<6>[    3.691609] init: command 'setprop' r=0
+<6>[    3.691640] init: command 'setprop' r=0
+<6>[    3.691670] init: command 'setprop' r=0
+<6>[    3.691700] init: command 'setprop' r=0
+<6>[    3.691797] init: command 'write' r=0
+<6>[    3.691860] init: command 'write' r=0
+<5>[    3.699293] init: starting 'usb_serial_write'
+<5>[    3.700199] init: starting 'servicemanager'
+<5>[    3.700986] init: starting 'vold'
+<5>[    3.702026] init: starting 'netd'
+<5>[    3.703900] init: starting 'debuggerd'
+<5>[    3.704751] init: starting 'ril-daemon'
+<5>[    3.705854] init: starting 'zygote'
+<5>[    3.706764] init: starting 'media'
+<6>[    3.707066] init: Created socket '/dev/socket/vold' with mode '660', user '0', group '1009'
+<5>[    3.707839] init: starting 'dbus'
+<5>[    3.708874] init: starting 'installd'
+<5>[    3.709647] init: starting 'keystore'
+<5>[    3.710411] init: starting 'cnd'
+<5>[    3.711170] init: starting 'port-bridge'
+<6>[    3.711522] init: Created socket '/dev/socket/rild-debug' with mode '660', user '1001', group '1000'
+<6>[    3.711579] init: Created socket '/dev/socket/rild' with mode '660', user '0', group '1001'
+<3>[    3.712235] init: cannot find '/system/bin/wiperiface', disabling 'wiperiface'
+<5>[    3.712425] init: starting 'qcom-sh'
+<6>[    3.712497] init: Created socket '/dev/socket/installd' with mode '600', user '1000', group '1000'
+<6>[    3.712799] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<5>[    3.713303] init: starting 'qrngd'
+<6>[    3.714239] init: command 'class_start' r=0
+<6>[    3.714699] init: processing action 0x2fb48 (boot)
+<6>[    3.714838] init: command 'mkdir' r=-17
+<6>[    3.716345] init: Created socket '/dev/socket/zygote' with mode '666', user '0', group '0'
+<6>[    3.716720] init: Created socket '/dev/socket/netd' with mode '660', user '0', group '1000'
+<6>[    3.717102] init: Created socket '/dev/socket/dbus' with mode '666', user '1002', group '1002'
+<6>[    3.717803] init: Created socket '/dev/socket/keystore' with mode '666', user '0', group '0'
+<6>[    3.718656] init: command 'chown' r=-2
+<6>[    3.718802] init: command 'chown' r=0
+<6>[    3.718847] init: command 'chown' r=0
+<6>[    3.718901] init: command 'chown' r=0
+<6>[    3.718936] init: command 'chown' r=0
+<6>[    3.718967] init: command 'chown' r=0
+<6>[    3.718994] init: command 'chown' r=0
+<6>[    3.719014] init: command 'chmod' r=-2
+<6>[    3.719045] init: command 'chmod' r=0
+<6>[    3.719077] init: command 'chmod' r=0
+<6>[    3.719109] init: command 'chmod' r=0
+<6>[    3.719127] init: command 'chown' r=0
+<6>[    3.719187] init: command 'chmod' r=0
+<6>[    3.719514] init: command 'chmod' r=0
+<6>[    3.719534] init: command 'chmod' r=0
+<6>[    3.719569] init: command 'chown' r=0
+<6>[    3.719594] init: command 'chmod' r=0
+<6>[    3.719616] init: command 'mkdir' r=-17
+<6>[    3.719632] init: command 'mkdir' r=-17
+<6>[    3.719670] init: command 'mkdir' r=-17
+<6>[    3.719686] init: command 'mkdir' r=-17
+<6>[    3.719722] init: command 'chown' r=0
+<6>[    3.719757] init: command 'setprop' r=0
+<6>[    3.719791] init: command 'mkdir' r=-17
+<6>[    3.719816] init: command 'mkdir' r=-17
+<6>[    3.719839] init: command 'mkdir' r=-17
+<6>[    3.719873] init: command 'mkdir' r=-17
+<6>[    3.719907] init: command 'mkdir' r=-30
+<6>[    3.719931] init: command 'mkdir' r=-17
+<6>[    3.719957] init: command 'chmod' r=-2
+<6>[    3.719976] init: command 'chmod' r=-2
+<6>[    3.719994] init: command 'chmod' r=-2
+<6>[    3.720010] init: command 'chmod' r=-2
+<6>[    3.720040] init: command 'chmod' r=-2
+<6>[    3.720061] init: command 'chmod' r=-2
+<6>[    3.720092] init: command 'chmod' r=-2
+<6>[    3.720175] init: command 'chown' r=-2
+<6>[    3.720238] init: command 'chmod' r=0
+<6>[    3.720296] init: command 'write' r=0
+<6>[    3.720326] init: command 'write' r=0
+<6>[    3.720335] init: processing action 0x32c10 (queue_propety_triggers)
+<6>[    3.720421] init: command 'queue_propety_triggers' r=0
+<6>[    3.720437] init: processing action 0x2bfd0 (property:persist.service.adb.enable=1)
+<5>[    3.720457] init: starting 'adbd'
+<6>[    3.720631] init: command 'start' r=0
+<6>[    3.720683] init: processing action 0x30570 (property:ro.emmc=1)
+<5>[    3.720763] init: starting 'rmt_storage'
+<6>[    3.720936] init: command 'start' r=0
+<6>[    3.721612] warning: `adbd' uses 32-bit capabilities (legacy support in use)
+<7>[    3.747068] diag: USB disconnected
+<6>[    3.748705] [SKY CHG]Charging with 0mA current, charge_type 0
+<6>[    3.749004] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    3.752796] pm8058_is_factory_cable: cable_mv is 3017
+<6>[    3.757741] [SKY CHG]Charging with 0mA current, charge_type 0
+<6>[    3.783973] pm8058_is_battery_present: batt_id is 55
+<6>[    3.784002] pm8058-charger pm8058-charger: pm8058_stop_charging stopping charging
+<6>[    3.784075] msm-charger msm-charger: handle_charger_removed: no chargers 
+<6>[    3.784096] msm-charger msm-charger: handle_charger_removed: stopping safety timer work
+<6>[    3.784155] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    3.786436] pm8058_is_factory_cable: cable_mv is 3251
+<6>[    3.787257] rmt_storage_ioctl: wait for request ioctl
+<3>[    3.790553] init: cannot find '/system/bin/qmuxd', disabling 'qmuxd'
+<6>[    3.800877] init: waitpid returned pid 156, status = 00000000
+<5>[    3.800890] init: process 'qcom-sh', pid 156 exited
+<6>[    3.807373] pm8058_is_battery_present: batt_id is 54
+<6>[    3.840020] init: waitpid returned pid 154, status = 00000000
+<5>[    3.840044] init: process 'cnd', pid 154 exited
+<5>[    3.840063] init: process 'cnd' killing any children in process group
+<6>[    3.879721] init: waitpid returned pid 155, status = 0000ff00
+<5>[    3.879771] init: process 'port-bridge', pid 155 exited
+<5>[    3.879812] init: process 'port-bridge' killing any children in process group
+<6>[    3.885284] init: waitpid returned pid 143, status = 00000000
+<5>[    3.885329] init: process 'usb_serial_write', pid 143 exited
+<6>[    3.944723] [SKY CHG]Charging with 0mA current, charge_type 0
+<6>[    3.944860] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    3.947836] pm8058_is_factory_cable: cable_mv is 3514
+<6>[    3.968743] pm8058_is_battery_present: batt_id is 54
+<6>[    4.019240] [SKY CHG]Charging with 0mA current, charge_type 0
+<6>[    4.019372] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    4.022059] pm8058_is_factory_cable: cable_mv is 3511
+<6>[    4.038559] pm8058_is_battery_present: batt_id is 54
+<6>[    4.110867] android_usb gadget: high speed config #1: android
+<7>[    4.111475] diag: USB connected
+<6>[    4.111760] [SKY CHG]Charging with 500mA current, charge_type 0
+<6>[    4.112208] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    4.115123] pm8058_is_factory_cable: cable_mv is 3513
+<6>[    4.138344] pm8058_is_battery_present: batt_id is 54
+<6>[    4.138386] msm-charger msm-charger: handle_charger_ready: best charger = pm8058-usb
+<6>[    4.138425] pm8058-charger pm8058-charger: pm8058_start_charging pm8058_start_charging : current 500 
+<6>[    4.141021] pm8058_is_factory_cable: cable_mv is 3182
+<6>[    4.141118] pm8058-charger pm8058-charger: __pm8058_start_charging 400mA 512min
+<6>[    4.142043] pm8058-charger pm8058-charger: pm8058_chg_fastchg_handler begin fast charging
+<6>[    4.142120] pm8058-charger pm8058-charger: [SKY CHG]pm8058_chg_fastchg_handler begin fast charging, set current 400
+<6>[    4.142195] [SKY_CHG] pm_chg_imaxsel_set: 400
+<6>[    4.142452] msm-charger msm-charger: [SKY CHG]handle_event 4 from pm8058-usb
+<6>[    4.165121] msm-charger msm-charger: handle_charger_ready: starting safety timer
+<6>[    4.471930] msm_release_control: control0
+<6>[    4.471994] __msm_release, open count =0
+<6>[    4.472037] __msm_release, vfe_release
+<6>[    4.472078] __msm_release, free frame pmem region
+<6>[    4.472121] __msm_release, free stats pmem region
+<6>[    4.472167] __msm_release: draining queue pict
+<6>[    4.472213] __msm_release: draining queue event
+<6>[    4.472263] __msm_release: completed
+<6>[    4.472306] msm_release_control: draining queue control
+<6>[    4.472357] msm_release_control: draining queue event
+<6>[    4.472401] msm_release_control, completed
+<6>[    4.736291] msm_hsusb msm_hsusb: [SKY CHG]usb_chg_detect 7, chg_type 0
+<6>[    4.736363] [SKY CHG]Charging with 500mA current, charge_type 0
+<6>[    4.736500] msm-charger msm-charger: [SKY CHG]handle_event 1 from pm8058-usb
+<6>[    4.739499] pm8058_is_factory_cable: cable_mv is 3018
+<6>[    4.758902] pm8058_is_battery_present: batt_id is 55
+<3>[    4.957676] set_bus_bw: invalid bandwidth request (4)
+<3>[    5.125220] set_bus_bw: invalid bandwidth request (4)
+<3>[    5.987726] set_bus_bw: invalid bandwidth request (4)
+<3>[    7.737718] set_bus_bw: invalid bandwidth request (4)
+<3>[    7.828944] pm_runtime: fail to wake up
+<6>[    7.829005] [LIVED] msm_fb_blank_sub: blank_mode=0, mfd->panel_power_on=0
+<6>[    7.857730] mdp4_overlay_pipe_alloc: pipe=c0876ab0 ndx=1 num=0 share=0 cnt=0
+<6>[    7.858042] mipi_dsi_ahb_en: ahb=fa014008 91840603
+<6>[    7.895298] [LIVED] mipi_magna_lcd_on start
+<6>[    7.895344] [LIVED] LCD RESET!!
+<6>[    8.065237] [LIVED] GAMMA =3
+<6>[    8.066828] [LIVED] mipi_magna_lcd_on exit 
+<6>[    8.070530] [LIVED] reset_set_bl=9a247d59
+<3>[    8.176930] init: no such service 'bootanim'
+<5>[    8.177096] init: starting 'cnd'
+<5>[    8.178103] init: starting 'port-bridge'
+<6>[    8.182683] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[    8.195048] init: waitpid returned pid 193, status = 0000ff00
+<5>[    8.195061] init: process 'port-bridge', pid 193 exited
+<5>[    8.195071] init: process 'port-bridge' killing any children in process group
+<6>[    8.197778] init: waitpid returned pid 192, status = 00000000
+<5>[    8.197789] init: process 'cnd', pid 192 exited
+<5>[    8.197797] init: process 'cnd' killing any children in process group
+<3>[    8.775250] set_bus_bw: invalid bandwidth request (4)
+<3>[    9.255358] pantech_debug_work_init is called
+<3>[    9.255431] msm_nv_rpc_connect: connect compatible failed vers = 90002
+<3>[    9.255493] msm_nv_rpc_connect: connect compatible failed vers = 10001
+<3>[    9.255548] pantech_debug_work_init : msm_nv_rpc_connect error(-11)
+<3>[    9.285314] set_bus_bw: invalid bandwidth request (4)
+<3>[    9.507700] set_bus_bw: invalid bandwidth request (4)
+<3>[    9.755201] set_bus_bw: invalid bandwidth request (4)
+<3>[   10.067699] set_bus_bw: invalid bandwidth request (4)
+<3>[   10.315239] set_bus_bw: invalid bandwidth request (4)
+<3>[   11.465197] set_bus_bw: invalid bandwidth request (4)
+<3>[   11.575216] set_bus_bw: invalid bandwidth request (4)
+<3>[   11.845192] set_bus_bw: invalid bandwidth request (4)
+<3>[   11.895179] set_bus_bw: invalid bandwidth request (4)
+<3>[   12.027701] set_bus_bw: invalid bandwidth request (4)
+<3>[   12.035126] set_bus_bw: invalid bandwidth request (4)
+<6>[   12.207921] request_suspend_state: wakeup (3->0) at 12122916742 (1970-08-11 04:30:17.426547408 UTC)
+<3>[   12.679687] set_bus_bw: invalid bandwidth request (4)
+<5>[   13.206096] init: starting 'cnd'
+<5>[   13.206383] init: starting 'port-bridge'
+<6>[   13.234700] init: waitpid returned pid 278, status = 0000ff00
+<5>[   13.234714] init: process 'port-bridge', pid 278 exited
+<5>[   13.234724] init: process 'port-bridge' killing any children in process group
+<6>[   13.234968] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   13.240828] init: waitpid returned pid 277, status = 00000000
+<5>[   13.240841] init: process 'cnd', pid 277 exited
+<5>[   13.240851] init: process 'cnd' killing any children in process group
+<3>[   14.674825] init: no such service 'bootanim'
+<3>[   17.187675] set_bus_bw: invalid bandwidth request (4)
+<3>[   17.235212] set_bus_bw: invalid bandwidth request (4)
+<3>[   18.047704] set_bus_bw: invalid bandwidth request (4)
+<3>[   18.155145] set_bus_bw: invalid bandwidth request (4)
+<5>[   18.877222] init: starting 'cnd'
+<5>[   18.878364] init: starting 'port-bridge'
+<6>[   18.880825] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   18.901475] init: waitpid returned pid 443, status = 00000000
+<5>[   18.901487] init: process 'cnd', pid 443 exited
+<5>[   18.901497] init: process 'cnd' killing any children in process group
+<6>[   18.902653] init: waitpid returned pid 444, status = 0000ff00
+<5>[   18.902664] init: process 'port-bridge', pid 444 exited
+<5>[   18.902673] init: process 'port-bridge' killing any children in process group
+<5>[   23.908059] init: starting 'cnd'
+<5>[   23.909081] init: starting 'port-bridge'
+<6>[   23.910071] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   23.931349] init: waitpid returned pid 445, status = 00000000
+<5>[   23.931361] init: process 'cnd', pid 445 exited
+<5>[   23.931371] init: process 'cnd' killing any children in process group
+<6>[   23.932652] init: waitpid returned pid 446, status = 0000ff00
+<5>[   23.932664] init: process 'port-bridge', pid 446 exited
+<5>[   23.932673] init: process 'port-bridge' killing any children in process group
+<5>[   28.938054] init: starting 'cnd'
+<5>[   28.939057] init: starting 'port-bridge'
+<6>[   28.940052] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   28.961312] init: waitpid returned pid 447, status = 00000000
+<5>[   28.961325] init: process 'cnd', pid 447 exited
+<5>[   28.961334] init: process 'cnd' killing any children in process group
+<6>[   28.962602] init: waitpid returned pid 448, status = 0000ff00
+<5>[   28.962613] init: process 'port-bridge', pid 448 exited
+<5>[   28.962622] init: process 'port-bridge' killing any children in process group
+<5>[   33.967992] init: starting 'cnd'
+<5>[   33.969010] init: starting 'port-bridge'
+<6>[   33.969980] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   33.991412] init: waitpid returned pid 449, status = 00000000
+<5>[   33.991428] init: process 'cnd', pid 449 exited
+<5>[   33.991440] init: process 'cnd' killing any children in process group
+<6>[   33.992489] init: waitpid returned pid 450, status = 0000ff00
+<5>[   33.992500] init: process 'port-bridge', pid 450 exited
+<5>[   33.992509] init: process 'port-bridge' killing any children in process group
+<5>[   38.997872] init: starting 'cnd'
+<5>[   38.998890] init: starting 'port-bridge'
+<6>[   38.999846] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   39.021367] init: waitpid returned pid 451, status = 00000000
+<5>[   39.021378] init: process 'cnd', pid 451 exited
+<5>[   39.021388] init: process 'cnd' killing any children in process group
+<6>[   39.022555] init: waitpid returned pid 452, status = 0000ff00
+<5>[   39.022567] init: process 'port-bridge', pid 452 exited
+<5>[   39.022576] init: process 'port-bridge' killing any children in process group
+<3>[   39.027805] set_bus_bw: invalid bandwidth request (4)
+<5>[   44.027975] init: starting 'cnd'
+<5>[   44.028987] init: starting 'port-bridge'
+<6>[   44.029949] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   44.051417] init: waitpid returned pid 453, status = 00000000
+<5>[   44.051430] init: process 'cnd', pid 453 exited
+<5>[   44.051439] init: process 'cnd' killing any children in process group
+<6>[   44.052561] init: waitpid returned pid 454, status = 0000ff00
+<5>[   44.052573] init: process 'port-bridge', pid 454 exited
+<5>[   44.052582] init: process 'port-bridge' killing any children in process group
+<3>[   44.057800] set_bus_bw: invalid bandwidth request (4)
+<3>[   47.025186] set_bus_bw: invalid bandwidth request (4)
+<3>[   47.190428] set_bus_bw: invalid bandwidth request (4)
+<3>[   47.615156] set_bus_bw: invalid bandwidth request (4)
+<5>[   49.055038] init: starting 'cnd'
+<5>[   49.055267] init: starting 'port-bridge'
+<6>[   49.067273] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   49.072630] init: waitpid returned pid 457, status = 00000000
+<5>[   49.072642] init: process 'cnd', pid 457 exited
+<5>[   49.072652] init: process 'cnd' killing any children in process group
+<6>[   49.079819] init: waitpid returned pid 458, status = 0000ff00
+<5>[   49.079831] init: process 'port-bridge', pid 458 exited
+<5>[   49.079841] init: process 'port-bridge' killing any children in process group
+<3>[   53.755121] set_bus_bw: invalid bandwidth request (4)
+<3>[   53.955165] set_bus_bw: invalid bandwidth request (4)
+<5>[   54.080191] init: starting 'cnd'
+<5>[   54.080989] init: starting 'port-bridge'
+<6>[   54.098658] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   54.103935] init: waitpid returned pid 459, status = 00000000
+<5>[   54.103948] init: process 'cnd', pid 459 exited
+<5>[   54.103958] init: process 'cnd' killing any children in process group
+<6>[   54.113531] init: waitpid returned pid 460, status = 0000ff00
+<5>[   54.113544] init: process 'port-bridge', pid 460 exited
+<5>[   54.113554] init: process 'port-bridge' killing any children in process group
+<3>[   54.325152] set_bus_bw: invalid bandwidth request (4)
+<3>[   55.225146] set_bus_bw: invalid bandwidth request (4)
+<3>[   56.565327] set_bus_bw: invalid bandwidth request (4)
+<3>[   56.587697] set_bus_bw: invalid bandwidth request (4)
+<3>[   56.625194] set_bus_bw: invalid bandwidth request (4)
+<3>[   56.637688] set_bus_bw: invalid bandwidth request (4)
+<3>[   56.745024] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.017696] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.025151] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.117770] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.237732] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.387734] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.535187] set_bus_bw: invalid bandwidth request (4)
+<3>[   57.937668] set_bus_bw: invalid bandwidth request (4)
+<5>[   58.117516] init: starting 'cnd'
+<5>[   58.117740] init: starting 'port-bridge'
+<6>[   58.117981] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   58.123488] init: waitpid returned pid 462, status = 00000000
+<5>[   58.123498] init: process 'cnd', pid 462 exited
+<5>[   58.123507] init: process 'cnd' killing any children in process group
+<6>[   58.124667] init: waitpid returned pid 463, status = 0000ff00
+<5>[   58.124677] init: process 'port-bridge', pid 463 exited
+<5>[   58.124688] init: process 'port-bridge' killing any children in process group
+<3>[   58.265146] set_bus_bw: invalid bandwidth request (4)
+<3>[   58.757622] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.097763] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.107646] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.145134] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.258569] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.307953] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.439752] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.567667] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.627838] set_bus_bw: invalid bandwidth request (4)
+<3>[   59.637596] set_bus_bw: invalid bandwidth request (4)
+<3>[   61.697630] set_bus_bw: invalid bandwidth request (4)
+<3>[   61.747647] set_bus_bw: invalid bandwidth request (4)
+<3>[   61.777717] set_bus_bw: invalid bandwidth request (4)
+<3>[   61.815294] set_bus_bw: invalid bandwidth request (4)
+<3>[   61.925180] set_bus_bw: invalid bandwidth request (4)
+<3>[   61.927576] set_bus_bw: invalid bandwidth request (4)
+<3>[   62.127635] set_bus_bw: invalid bandwidth request (4)
+<6>[   62.347401] pm8058_is_battery_present: batt_id is 56
+<6>[   62.367336] pm8058-charger pm8058-charger: pm8058_is_battery_id_valid : CHANNEL_ADC_BATT_ID = 55
+<6>[   62.367347] msm-charger update_heartbeat batt_status= 4, charger_type =2
+<3>[   62.375170] set_bus_bw: invalid bandwidth request (4)
+<3>[   62.377503] set_bus_bw: invalid bandwidth request (4)
+<3>[   62.467651] set_bus_bw: invalid bandwidth request (4)
+<3>[   62.677656] set_bus_bw: invalid bandwidth request (4)
+<3>[   62.747663] set_bus_bw: invalid bandwidth request (4)
+<3>[   62.847680] set_bus_bw: invalid bandwidth request (4)
+<5>[   63.125019] init: starting 'cnd'
+<5>[   63.125243] init: starting 'port-bridge'
+<6>[   63.125441] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   63.136445] init: waitpid returned pid 465, status = 0000ff00
+<5>[   63.136462] init: process 'port-bridge', pid 465 exited
+<5>[   63.136477] init: process 'port-bridge' killing any children in process group
+<6>[   63.142642] init: waitpid returned pid 464, status = 00000000
+<5>[   63.142654] init: process 'cnd', pid 464 exited
+<5>[   63.142663] init: process 'cnd' killing any children in process group
+<4>[   65.333792] ## wifi_probe
+<4>[   65.333803] wifi_set_power = 1
+<3>[   65.333809] wlan_power: 1
+<4>[   65.403993] wifi_set_carddetect = 1
+<3>[   65.404001] wlan_set_carddetect: 1
+<6>[   65.404008] mmc2: Slot status change detected (0 -> 1)
+<4>[   65.404978] 
+<4>[   65.404981] Dongle Host Driver, version 4.220.20.0
+<4>[   65.494544] mmc2: queuing unknown CIS tuple 0x91 (3 bytes)
+<6>[   65.494578] mmc2: new SDIO card at address 0001
+<4>[   65.496387] alloc static buf at e0b80000!
+<4>[   65.499303] DHD: dongle ram size is set to 393216(orig 393216)
+<3>[   65.517815] set_bus_bw: invalid bandwidth request (4)
+<4>[   65.561379] _dhdsdio_download_firmware: dongle nvram file download failed
+<5>[   68.147493] init: starting 'cnd'
+<5>[   68.148289] init: starting 'port-bridge'
+<6>[   68.162973] init: waitpid returned pid 472, status = 0000ff00
+<5>[   68.162987] init: process 'port-bridge', pid 472 exited
+<5>[   68.162996] init: process 'port-bridge' killing any children in process group
+<6>[   68.171395] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   68.178909] init: waitpid returned pid 471, status = 00000000
+<5>[   68.178939] init: process 'cnd', pid 471 exited
+<5>[   68.178958] init: process 'cnd' killing any children in process group
+<5>[   73.184062] init: starting 'cnd'
+<5>[   73.185094] init: starting 'port-bridge'
+<6>[   73.186207] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   73.201882] init: waitpid returned pid 473, status = 00000000
+<5>[   73.201895] init: process 'cnd', pid 473 exited
+<5>[   73.201905] init: process 'cnd' killing any children in process group
+<6>[   73.203078] init: waitpid returned pid 474, status = 0000ff00
+<5>[   73.203090] init: process 'port-bridge', pid 474 exited
+<5>[   73.203099] init: process 'port-bridge' killing any children in process group
+<3>[   73.207149] set_bus_bw: invalid bandwidth request (4)
+<4>[   73.397121] dhd_module_init: sdio_register_driver timeout
+<4>[   74.676447] dhd_bus_start failed bus is not ready
+<4>[   74.676504] dhdsdio_probe: failed
+<4>[   74.680181] ## wifi_remove
+<4>[   74.680227] wifi_set_power = 0
+<3>[   74.680270] wlan_power: 0
+<4>[   74.754381] wifi_set_carddetect = 0
+<3>[   74.754388] wlan_set_carddetect: 0
+<6>[   74.754395] mmc2: Slot status change detected (1 -> 0)
+<6>[   74.763128] mmc2: card 0001 removed
+<5>[   78.208473] init: starting 'cnd'
+<5>[   78.209481] init: starting 'port-bridge'
+<6>[   78.210464] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   78.231239] init: waitpid returned pid 476, status = 00000000
+<5>[   78.231320] init: process 'cnd', pid 476 exited
+<5>[   78.231385] init: process 'cnd' killing any children in process group
+<6>[   78.251915] init: waitpid returned pid 477, status = 0000ff00
+<5>[   78.251927] init: process 'port-bridge', pid 477 exited
+<5>[   78.251937] init: process 'port-bridge' killing any children in process group
+<5>[   83.257317] init: starting 'cnd'
+<5>[   83.258332] init: starting 'port-bridge'
+<6>[   83.259285] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   83.280781] init: waitpid returned pid 478, status = 00000000
+<5>[   83.280796] init: process 'cnd', pid 478 exited
+<5>[   83.280805] init: process 'cnd' killing any children in process group
+<6>[   83.281804] init: waitpid returned pid 479, status = 0000ff00
+<5>[   83.281815] init: process 'port-bridge', pid 479 exited
+<5>[   83.281824] init: process 'port-bridge' killing any children in process group
+<5>[   88.287220] init: starting 'cnd'
+<5>[   88.288240] init: starting 'port-bridge'
+<6>[   88.289184] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   88.310921] init: waitpid returned pid 480, status = 00000000
+<5>[   88.310934] init: process 'cnd', pid 480 exited
+<5>[   88.310943] init: process 'cnd' killing any children in process group
+<6>[   88.312120] init: waitpid returned pid 481, status = 0000ff00
+<5>[   88.312132] init: process 'port-bridge', pid 481 exited
+<5>[   88.312141] init: process 'port-bridge' killing any children in process group
+<5>[   93.317515] init: starting 'cnd'
+<5>[   93.318536] init: starting 'port-bridge'
+<6>[   93.319462] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   93.340908] init: waitpid returned pid 482, status = 00000000
+<5>[   93.340921] init: process 'cnd', pid 482 exited
+<5>[   93.340930] init: process 'cnd' killing any children in process group
+<6>[   93.342107] init: waitpid returned pid 483, status = 0000ff00
+<5>[   93.342118] init: process 'port-bridge', pid 483 exited
+<5>[   93.342128] init: process 'port-bridge' killing any children in process group
+<5>[   98.347495] init: starting 'cnd'
+<5>[   98.348523] init: starting 'port-bridge'
+<6>[   98.349468] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[   98.370892] init: waitpid returned pid 484, status = 00000000
+<5>[   98.370905] init: process 'cnd', pid 484 exited
+<5>[   98.370915] init: process 'cnd' killing any children in process group
+<6>[   98.371983] init: waitpid returned pid 485, status = 0000ff00
+<5>[   98.371994] init: process 'port-bridge', pid 485 exited
+<5>[   98.372003] init: process 'port-bridge' killing any children in process group
+<3>[   98.377265] set_bus_bw: invalid bandwidth request (4)
+<5>[  103.377388] init: starting 'cnd'
+<5>[  103.378414] init: starting 'port-bridge'
+<6>[  103.379383] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  103.400816] init: waitpid returned pid 486, status = 00000000
+<5>[  103.400828] init: process 'cnd', pid 486 exited
+<5>[  103.400838] init: process 'cnd' killing any children in process group
+<6>[  103.402008] init: waitpid returned pid 487, status = 0000ff00
+<5>[  103.402019] init: process 'port-bridge', pid 487 exited
+<5>[  103.402028] init: process 'port-bridge' killing any children in process group
+<3>[  103.407274] set_bus_bw: invalid bandwidth request (4)
+<5>[  108.407410] init: starting 'cnd'
+<5>[  108.408444] init: starting 'port-bridge'
+<6>[  108.409386] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  108.430856] init: waitpid returned pid 488, status = 00000000
+<5>[  108.430870] init: process 'cnd', pid 488 exited
+<5>[  108.430880] init: process 'cnd' killing any children in process group
+<6>[  108.431842] init: waitpid returned pid 489, status = 0000ff00
+<5>[  108.431853] init: process 'port-bridge', pid 489 exited
+<5>[  108.431862] init: process 'port-bridge' killing any children in process group
+<3>[  108.437258] set_bus_bw: invalid bandwidth request (4)
+<5>[  113.437216] init: starting 'cnd'
+<5>[  113.438221] init: starting 'port-bridge'
+<6>[  113.439178] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  113.460757] init: waitpid returned pid 490, status = 00000000
+<5>[  113.460773] init: process 'cnd', pid 490 exited
+<5>[  113.460787] init: process 'cnd' killing any children in process group
+<6>[  113.461855] init: waitpid returned pid 491, status = 0000ff00
+<5>[  113.461865] init: process 'port-bridge', pid 491 exited
+<5>[  113.461874] init: process 'port-bridge' killing any children in process group
+<5>[  118.467237] init: starting 'cnd'
+<5>[  118.468272] init: starting 'port-bridge'
+<6>[  118.469203] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  118.490853] init: waitpid returned pid 492, status = 00000000
+<5>[  118.490865] init: process 'cnd', pid 492 exited
+<5>[  118.490875] init: process 'cnd' killing any children in process group
+<6>[  118.492039] init: waitpid returned pid 493, status = 0000ff00
+<5>[  118.492051] init: process 'port-bridge', pid 493 exited
+<5>[  118.492061] init: process 'port-bridge' killing any children in process group
+<3>[  118.497273] set_bus_bw: invalid bandwidth request (4)
+<6>[  122.187386] pm8058_is_battery_present: batt_id is 56
+<6>[  122.207269] pm8058-charger pm8058-charger: pm8058_is_battery_id_valid : CHANNEL_ADC_BATT_ID = 56
+<6>[  122.207342] msm-charger update_heartbeat batt_status= 4, charger_type =2
+<5>[  123.497433] init: starting 'cnd'
+<5>[  123.498454] init: starting 'port-bridge'
+<6>[  123.499402] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  123.520933] init: waitpid returned pid 495, status = 00000000
+<5>[  123.520945] init: process 'cnd', pid 495 exited
+<5>[  123.520954] init: process 'cnd' killing any children in process group
+<6>[  123.522189] init: waitpid returned pid 496, status = 0000ff00
+<5>[  123.522200] init: process 'port-bridge', pid 496 exited
+<5>[  123.522209] init: process 'port-bridge' killing any children in process group
+<6>[  125.223228] request_suspend_state: sleep (0->3) at 125138772420 (1970-08-11 04:32:10.442399086 UTC)
+<4>[  125.223464] Touch Power All: 0, cmd: 300
+<6>[  125.240436] [LIVED] msm_fb_blank_sub: blank_mode=4, mfd->panel_power_on=1
+<6>[  125.275016] [LIVED] mipi_magna_lcd_off start
+<6>[  125.564657] [LIVED] mipi_magna_lcd_off exit 
+<6>[  125.568436] [LIVED] reset_set_bl=1b93214e
+<5>[  128.527572] init: starting 'cnd'
+<5>[  128.528605] init: starting 'port-bridge'
+<6>[  128.529565] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  128.551043] init: waitpid returned pid 497, status = 00000000
+<5>[  128.551056] init: process 'cnd', pid 497 exited
+<5>[  128.551067] init: process 'cnd' killing any children in process group
+<6>[  128.552343] init: waitpid returned pid 498, status = 0000ff00
+<5>[  128.552355] init: process 'port-bridge', pid 498 exited
+<5>[  128.552364] init: process 'port-bridge' killing any children in process group
+<5>[  133.557731] init: starting 'cnd'
+<5>[  133.558732] init: starting 'port-bridge'
+<6>[  133.559671] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  133.580951] init: waitpid returned pid 499, status = 00000000
+<5>[  133.580963] init: process 'cnd', pid 499 exited
+<5>[  133.580973] init: process 'cnd' killing any children in process group
+<6>[  133.582133] init: waitpid returned pid 500, status = 0000ff00
+<5>[  133.582144] init: process 'port-bridge', pid 500 exited
+<5>[  133.582154] init: process 'port-bridge' killing any children in process group
+<5>[  138.587547] init: starting 'cnd'
+<5>[  138.588564] init: starting 'port-bridge'
+<6>[  138.589518] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  138.610783] init: waitpid returned pid 501, status = 00000000
+<5>[  138.610800] init: process 'cnd', pid 501 exited
+<5>[  138.610813] init: process 'cnd' killing any children in process group
+<6>[  138.611865] init: waitpid returned pid 502, status = 0000ff00
+<5>[  138.611876] init: process 'port-bridge', pid 502 exited
+<5>[  138.611885] init: process 'port-bridge' killing any children in process group
+<5>[  143.617281] init: starting 'cnd'
+<5>[  143.618277] init: starting 'port-bridge'
+<6>[  143.619221] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  143.640903] init: waitpid returned pid 503, status = 00000000
+<5>[  143.640917] init: process 'cnd', pid 503 exited
+<5>[  143.640926] init: process 'cnd' killing any children in process group
+<6>[  143.642172] init: waitpid returned pid 504, status = 0000ff00
+<5>[  143.642184] init: process 'port-bridge', pid 504 exited
+<5>[  143.642193] init: process 'port-bridge' killing any children in process group
+<5>[  148.647557] init: starting 'cnd'
+<5>[  148.648567] init: starting 'port-bridge'
+<6>[  148.649474] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  148.670823] init: waitpid returned pid 505, status = 00000000
+<5>[  148.670836] init: process 'cnd', pid 505 exited
+<5>[  148.670845] init: process 'cnd' killing any children in process group
+<6>[  148.672003] init: waitpid returned pid 506, status = 0000ff00
+<5>[  148.672013] init: process 'port-bridge', pid 506 exited
+<5>[  148.672023] init: process 'port-bridge' killing any children in process group
+<3>[  148.677248] set_bus_bw: invalid bandwidth request (4)
+<5>[  153.677381] init: starting 'cnd'
+<5>[  153.678375] init: starting 'port-bridge'
+<6>[  153.679283] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  153.700939] init: waitpid returned pid 507, status = 00000000
+<5>[  153.700951] init: process 'cnd', pid 507 exited
+<5>[  153.700961] init: process 'cnd' killing any children in process group
+<6>[  153.702148] init: waitpid returned pid 508, status = 0000ff00
+<5>[  153.702160] init: process 'port-bridge', pid 508 exited
+<5>[  153.702169] init: process 'port-bridge' killing any children in process group
+<3>[  154.927119] set_bus_bw: invalid bandwidth request (4)
+<5>[  158.707522] init: starting 'cnd'
+<5>[  158.708531] init: starting 'port-bridge'
+<6>[  158.709434] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  158.730819] init: waitpid returned pid 511, status = 00000000
+<5>[  158.730832] init: process 'cnd', pid 511 exited
+<5>[  158.730841] init: process 'cnd' killing any children in process group
+<6>[  158.732008] init: waitpid returned pid 512, status = 0000ff00
+<5>[  158.732020] init: process 'port-bridge', pid 512 exited
+<5>[  158.732029] init: process 'port-bridge' killing any children in process group
+<3>[  158.737277] set_bus_bw: invalid bandwidth request (4)
+<5>[  163.737395] init: starting 'cnd'
+<5>[  163.738393] init: starting 'port-bridge'
+<6>[  163.739330] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  163.760881] init: waitpid returned pid 515, status = 00000000
+<5>[  163.760893] init: process 'cnd', pid 515 exited
+<5>[  163.760902] init: process 'cnd' killing any children in process group
+<6>[  163.762151] init: waitpid returned pid 516, status = 0000ff00
+<5>[  163.762162] init: process 'port-bridge', pid 516 exited
+<5>[  163.762171] init: process 'port-bridge' killing any children in process group
+<5>[  168.767506] init: starting 'cnd'
+<5>[  168.768505] init: starting 'port-bridge'
+<6>[  168.769425] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  168.790851] init: waitpid returned pid 517, status = 00000000
+<5>[  168.790868] init: process 'cnd', pid 517 exited
+<5>[  168.790879] init: process 'cnd' killing any children in process group
+<6>[  168.791803] init: waitpid returned pid 518, status = 0000ff00
+<5>[  168.791814] init: process 'port-bridge', pid 518 exited
+<5>[  168.791823] init: process 'port-bridge' killing any children in process group
+<3>[  168.797240] set_bus_bw: invalid bandwidth request (4)
+<5>[  173.797157] init: starting 'cnd'
+<5>[  173.798153] init: starting 'port-bridge'
+<6>[  173.799099] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  173.820887] init: waitpid returned pid 519, status = 00000000
+<5>[  173.820900] init: process 'cnd', pid 519 exited
+<5>[  173.820913] init: process 'cnd' killing any children in process group
+<6>[  173.821863] init: waitpid returned pid 520, status = 0000ff00
+<5>[  173.821874] init: process 'port-bridge', pid 520 exited
+<5>[  173.821883] init: process 'port-bridge' killing any children in process group
+<5>[  178.827210] init: starting 'cnd'
+<5>[  178.828272] init: starting 'port-bridge'
+<6>[  178.829142] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  178.850781] init: waitpid returned pid 521, status = 00000000
+<5>[  178.850793] init: process 'cnd', pid 521 exited
+<5>[  178.850803] init: process 'cnd' killing any children in process group
+<6>[  178.851941] init: waitpid returned pid 522, status = 0000ff00
+<5>[  178.851952] init: process 'port-bridge', pid 522 exited
+<5>[  178.851961] init: process 'port-bridge' killing any children in process group
+<3>[  178.857300] set_bus_bw: invalid bandwidth request (4)
+<6>[  181.535199] request_suspend_state: wakeup (3->0) at 181450788908 (1970-08-11 04:33:06.754423129 UTC)
+<6>[  181.535846] [LIVED] msm_fb_blank_sub: blank_mode=0, mfd->panel_power_on=0
+<4>[  181.540486] (mmc-debug) micro-sd power up
+<6>[  181.564539] mipi_dsi_ahb_en: ahb=fa014008 91840603
+<6>[  181.604483] [LIVED] mipi_magna_lcd_on start
+<6>[  181.604494] [LIVED] LCD RESET!!
+<3>[  181.614632] set_bus_bw: invalid bandwidth request (4)
+<6>[  181.774605] [LIVED] GAMMA =3
+<6>[  181.776111] [LIVED] mipi_magna_lcd_on exit 
+<6>[  181.780160] [LIVED] reset_set_bl=9a247d59
+<4>[  181.780778] Touch Power All: 1, cmd: 300
+<6>[  182.274378] request_suspend_state: sleep (0->3) at 182189936118 (1970-08-11 04:33:07.493565007 UTC)
+<4>[  182.274499] Touch Power All: 0, cmd: 300
+<6>[  182.279410] [LIVED] msm_fb_blank_sub: blank_mode=4, mfd->panel_power_on=1
+<6>[  182.304776] [LIVED] mipi_magna_lcd_off start
+<6>[  182.347390] pm8058_is_battery_present: batt_id is 56
+<6>[  182.367271] pm8058-charger pm8058-charger: pm8058_is_battery_id_valid : CHANNEL_ADC_BATT_ID = 56
+<6>[  182.367345] msm-charger update_heartbeat batt_status= 4, charger_type =2
+<6>[  182.604601] [LIVED] mipi_magna_lcd_off exit 
+<6>[  182.608377] [LIVED] reset_set_bl=1b93214e
+<5>[  183.857325] init: starting 'cnd'
+<5>[  183.858325] init: starting 'port-bridge'
+<6>[  183.859323] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  183.880985] init: waitpid returned pid 523, status = 00000000
+<5>[  183.881002] init: process 'cnd', pid 523 exited
+<5>[  183.881016] init: process 'cnd' killing any children in process group
+<6>[  183.881953] init: waitpid returned pid 524, status = 0000ff00
+<5>[  183.881964] init: process 'port-bridge', pid 524 exited
+<5>[  183.881973] init: process 'port-bridge' killing any children in process group
+<3>[  183.887246] set_bus_bw: invalid bandwidth request (4)
+<5>[  188.887345] init: starting 'cnd'
+<5>[  188.888369] init: starting 'port-bridge'
+<6>[  188.889299] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  188.910839] init: waitpid returned pid 525, status = 00000000
+<5>[  188.910856] init: process 'cnd', pid 525 exited
+<5>[  188.910867] init: process 'cnd' killing any children in process group
+<6>[  188.911923] init: waitpid returned pid 526, status = 0000ff00
+<5>[  188.911934] init: process 'port-bridge', pid 526 exited
+<5>[  188.911943] init: process 'port-bridge' killing any children in process group
+<5>[  193.917325] init: starting 'cnd'
+<5>[  193.918357] init: starting 'port-bridge'
+<6>[  193.919252] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  193.940865] init: waitpid returned pid 527, status = 00000000
+<5>[  193.940877] init: process 'cnd', pid 527 exited
+<5>[  193.940887] init: process 'cnd' killing any children in process group
+<6>[  193.942082] init: waitpid returned pid 528, status = 0000ff00
+<5>[  193.942093] init: process 'port-bridge', pid 528 exited
+<5>[  193.942103] init: process 'port-bridge' killing any children in process group
+<5>[  198.947481] init: starting 'cnd'
+<5>[  198.948510] init: starting 'port-bridge'
+<6>[  198.949415] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  198.970844] init: waitpid returned pid 529, status = 00000000
+<5>[  198.970859] init: process 'cnd', pid 529 exited
+<5>[  198.970871] init: process 'cnd' killing any children in process group
+<6>[  198.971782] init: waitpid returned pid 530, status = 0000ff00
+<5>[  198.971793] init: process 'port-bridge', pid 530 exited
+<5>[  198.971804] init: process 'port-bridge' killing any children in process group
+<3>[  198.977243] set_bus_bw: invalid bandwidth request (4)
+<5>[  203.977174] init: starting 'cnd'
+<5>[  203.978185] init: starting 'port-bridge'
+<6>[  203.979091] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  204.000997] init: waitpid returned pid 531, status = 00000000
+<5>[  204.001013] init: process 'cnd', pid 531 exited
+<5>[  204.001025] init: process 'cnd' killing any children in process group
+<6>[  204.001957] init: waitpid returned pid 532, status = 0000ff00
+<5>[  204.001967] init: process 'port-bridge', pid 532 exited
+<5>[  204.001976] init: process 'port-bridge' killing any children in process group
+<3>[  204.007218] set_bus_bw: invalid bandwidth request (4)
+<5>[  209.007386] init: starting 'cnd'
+<5>[  209.008401] init: starting 'port-bridge'
+<6>[  209.009311] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  209.030733] init: waitpid returned pid 533, status = 00000000
+<5>[  209.030746] init: process 'cnd', pid 533 exited
+<5>[  209.030755] init: process 'cnd' killing any children in process group
+<6>[  209.031898] init: waitpid returned pid 534, status = 0000ff00
+<5>[  209.031910] init: process 'port-bridge', pid 534 exited
+<5>[  209.031920] init: process 'port-bridge' killing any children in process group
+<3>[  209.037183] set_bus_bw: invalid bandwidth request (4)
+<5>[  214.037355] init: starting 'cnd'
+<5>[  214.038352] init: starting 'port-bridge'
+<6>[  214.039282] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  214.060880] init: waitpid returned pid 535, status = 00000000
+<5>[  214.060892] init: process 'cnd', pid 535 exited
+<5>[  214.060902] init: process 'cnd' killing any children in process group
+<6>[  214.062090] init: waitpid returned pid 536, status = 0000ff00
+<5>[  214.062102] init: process 'port-bridge', pid 536 exited
+<5>[  214.062112] init: process 'port-bridge' killing any children in process group
+<5>[  219.067505] init: starting 'cnd'
+<5>[  219.068502] init: starting 'port-bridge'
+<6>[  219.069442] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  219.090886] init: waitpid returned pid 537, status = 00000000
+<5>[  219.090899] init: process 'cnd', pid 537 exited
+<5>[  219.090908] init: process 'cnd' killing any children in process group
+<6>[  219.091931] init: waitpid returned pid 538, status = 0000ff00
+<5>[  219.091943] init: process 'port-bridge', pid 538 exited
+<5>[  219.091952] init: process 'port-bridge' killing any children in process group
+<3>[  219.097284] set_bus_bw: invalid bandwidth request (4)
+<5>[  223.096317] init: starting 'cnd'
+<5>[  223.097325] init: starting 'port-bridge'
+<6>[  223.098271] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  223.120663] init: waitpid returned pid 539, status = 00000000
+<5>[  223.120675] init: process 'cnd', pid 539 exited
+<5>[  223.120684] init: process 'cnd' killing any children in process group
+<6>[  223.121774] init: waitpid returned pid 540, status = 0000ff00
+<5>[  223.121785] init: process 'port-bridge', pid 540 exited
+<5>[  223.121795] init: process 'port-bridge' killing any children in process group
+<3>[  223.127274] set_bus_bw: invalid bandwidth request (4)
+<5>[  228.127167] init: starting 'cnd'
+<5>[  228.128184] init: starting 'port-bridge'
+<6>[  228.129137] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  228.150775] init: waitpid returned pid 543, status = 00000000
+<5>[  228.150788] init: process 'cnd', pid 543 exited
+<5>[  228.150797] init: process 'cnd' killing any children in process group
+<6>[  228.151935] init: waitpid returned pid 544, status = 0000ff00
+<5>[  228.151946] init: process 'port-bridge', pid 544 exited
+<5>[  228.151956] init: process 'port-bridge' killing any children in process group
+<3>[  228.157265] set_bus_bw: invalid bandwidth request (4)
+<5>[  233.157309] init: starting 'cnd'
+<5>[  233.158299] init: starting 'port-bridge'
+<6>[  233.159240] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  233.180831] init: waitpid returned pid 545, status = 00000000
+<5>[  233.180846] init: process 'cnd', pid 545 exited
+<5>[  233.180856] init: process 'cnd' killing any children in process group
+<6>[  233.181739] init: waitpid returned pid 546, status = 0000ff00
+<5>[  233.181750] init: process 'port-bridge', pid 546 exited
+<5>[  233.181759] init: process 'port-bridge' killing any children in process group
+<3>[  233.187228] set_bus_bw: invalid bandwidth request (4)
+<6>[  235.129833] request_suspend_state: wakeup (3->0) at 235045431121 (1970-08-11 04:34:00.349067417 UTC)
+<6>[  235.129873] [LIVED] msm_fb_blank_sub: blank_mode=0, mfd->panel_power_on=0
+<4>[  235.129940] (mmc-debug) micro-sd power up
+<6>[  235.155402] mipi_dsi_ahb_en: ahb=fa014008 91840603
+<6>[  235.194473] [LIVED] mipi_magna_lcd_on start
+<6>[  235.194483] [LIVED] LCD RESET!!
+<6>[  235.364610] [LIVED] GAMMA =3
+<6>[  235.366117] [LIVED] mipi_magna_lcd_on exit 
+<6>[  235.370159] [LIVED] reset_set_bl=9a247d59
+<4>[  235.370892] Touch Power All: 1, cmd: 300
+<3>[  236.724625] set_bus_bw: invalid bandwidth request (4)
+<3>[  237.007170] set_bus_bw: invalid bandwidth request (4)
+<3>[  237.084620] set_bus_bw: invalid bandwidth request (4)
+<3>[  238.114600] set_bus_bw: invalid bandwidth request (4)
+<5>[  238.187305] init: starting 'cnd'
+<5>[  238.188322] init: starting 'port-bridge'
+<6>[  238.191147] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  238.203211] init: waitpid returned pid 550, status = 0000ff00
+<5>[  238.203223] init: process 'port-bridge', pid 550 exited
+<5>[  238.203234] init: process 'port-bridge' killing any children in process group
+<6>[  238.204744] init: waitpid returned pid 549, status = 00000000
+<5>[  238.204755] init: process 'cnd', pid 549 exited
+<5>[  238.204765] init: process 'cnd' killing any children in process group
+<6>[  242.187425] pm8058_is_battery_present: batt_id is 55
+<6>[  242.207256] pm8058-charger pm8058-charger: pm8058_is_battery_id_valid : CHANNEL_ADC_BATT_ID = 55
+<6>[  242.207330] msm-charger update_heartbeat batt_status= 4, charger_type =2
+<5>[  243.210183] init: starting 'cnd'
+<5>[  243.211200] init: starting 'port-bridge'
+<6>[  243.212150] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  243.231258] init: waitpid returned pid 562, status = 00000000
+<5>[  243.231275] init: process 'cnd', pid 562 exited
+<5>[  243.231289] init: process 'cnd' killing any children in process group
+<6>[  243.232219] init: waitpid returned pid 563, status = 0000ff00
+<5>[  243.232230] init: process 'port-bridge', pid 563 exited
+<5>[  243.232239] init: process 'port-bridge' killing any children in process group
+<3>[  243.237211] set_bus_bw: invalid bandwidth request (4)
+<3>[  244.147122] set_bus_bw: invalid bandwidth request (4)
+<3>[  244.174632] set_bus_bw: invalid bandwidth request (4)
+<3>[  245.094618] set_bus_bw: invalid bandwidth request (4)
+<3>[  246.334627] set_bus_bw: invalid bandwidth request (4)
+<3>[  246.514487] set_bus_bw: invalid bandwidth request (4)
+<3>[  246.834626] set_bus_bw: invalid bandwidth request (4)
+<5>[  248.234483] init: starting 'cnd'
+<5>[  248.234707] init: starting 'port-bridge'
+<6>[  248.261592] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  248.272125] init: waitpid returned pid 566, status = 0000ff00
+<5>[  248.272138] init: process 'port-bridge', pid 566 exited
+<5>[  248.272148] init: process 'port-bridge' killing any children in process group
+<6>[  248.277738] init: waitpid returned pid 565, status = 00000000
+<5>[  248.277751] init: process 'cnd', pid 565 exited
+<5>[  248.277761] init: process 'cnd' killing any children in process group
+<3>[  248.454667] set_bus_bw: invalid bandwidth request (4)
+<3>[  249.747118] set_bus_bw: invalid bandwidth request (4)
+<3>[  250.377104] set_bus_bw: invalid bandwidth request (4)
+<3>[  251.057221] set_bus_bw: invalid bandwidth request (4)
+<3>[  251.414612] set_bus_bw: invalid bandwidth request (4)
+<3>[  251.744613] set_bus_bw: invalid bandwidth request (4)
+<3>[  251.844589] set_bus_bw: invalid bandwidth request (4)
+<3>[  252.024618] set_bus_bw: invalid bandwidth request (4)
+<3>[  252.026982] set_bus_bw: invalid bandwidth request (4)
+<5>[  253.282956] init: starting 'cnd'
+<5>[  253.283295] init: starting 'port-bridge'
+<6>[  253.297934] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  253.305522] init: waitpid returned pid 567, status = 00000000
+<5>[  253.305534] init: process 'cnd', pid 567 exited
+<5>[  253.305544] init: process 'cnd' killing any children in process group
+<6>[  253.308959] init: waitpid returned pid 568, status = 0000ff00
+<5>[  253.308971] init: process 'port-bridge', pid 568 exited
+<5>[  253.308982] init: process 'port-bridge' killing any children in process group
+<3>[  253.837902] set_bus_bw: invalid bandwidth request (4)
+<3>[  253.867135] set_bus_bw: invalid bandwidth request (4)
+<3>[  254.024770] set_bus_bw: invalid bandwidth request (4)
+<3>[  256.214604] set_bus_bw: invalid bandwidth request (4)
+<3>[  256.227105] set_bus_bw: invalid bandwidth request (4)
+<3>[  256.234430] set_bus_bw: invalid bandwidth request (4)
+<4>[  258.128985] ## wifi_probe
+<4>[  258.128994] wifi_set_power = 1
+<3>[  258.128999] wlan_power: 1
+<4>[  258.199105] wifi_set_carddetect = 1
+<3>[  258.199111] wlan_set_carddetect: 1
+<6>[  258.199118] mmc2: Slot status change detected (0 -> 1)
+<4>[  258.200607] 
+<4>[  258.200610] Dongle Host Driver, version 4.220.20.0
+<4>[  258.306797] mmc2: queuing unknown CIS tuple 0x91 (3 bytes)
+<6>[  258.306847] mmc2: new SDIO card at address 0001
+<5>[  258.314264] init: starting 'cnd'
+<5>[  258.314873] init: starting 'port-bridge'
+<6>[  258.316193] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<4>[  258.318035] alloc static buf at e0b80000!
+<4>[  258.320894] DHD: dongle ram size is set to 393216(orig 393216)
+<6>[  258.332125] init: waitpid returned pid 569, status = 00000000
+<5>[  258.332136] init: process 'cnd', pid 569 exited
+<5>[  258.332144] init: process 'cnd' killing any children in process group
+<6>[  258.344216] init: waitpid returned pid 570, status = 0000ff00
+<5>[  258.344234] init: process 'port-bridge', pid 570 exited
+<5>[  258.344250] init: process 'port-bridge' killing any children in process group
+<4>[  258.361815] _dhdsdio_download_firmware: dongle nvram file download failed
+<5>[  263.349171] init: starting 'cnd'
+<5>[  263.349968] init: starting 'port-bridge'
+<6>[  263.370582] init: waitpid returned pid 577, status = 0000ff00
+<5>[  263.370595] init: process 'port-bridge', pid 577 exited
+<5>[  263.370605] init: process 'port-bridge' killing any children in process group
+<6>[  263.408486] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  263.429269] init: waitpid returned pid 576, status = 00000000
+<5>[  263.429281] init: process 'cnd', pid 576 exited
+<5>[  263.429291] init: process 'cnd' killing any children in process group
+<4>[  266.196569] dhd_module_init: sdio_register_driver timeout
+<4>[  267.485141] dhd_bus_start failed bus is not ready
+<4>[  267.485196] dhdsdio_probe: failed
+<4>[  267.490855] ## wifi_remove
+<4>[  267.490897] wifi_set_power = 0
+<3>[  267.490938] wlan_power: 0
+<4>[  267.563744] wifi_set_carddetect = 0
+<3>[  267.563750] wlan_set_carddetect: 0
+<6>[  267.563757] mmc2: Slot status change detected (1 -> 0)
+<6>[  267.572621] mmc2: card 0001 removed
+<5>[  268.434613] init: starting 'cnd'
+<5>[  268.435650] init: starting 'port-bridge'
+<6>[  268.436595] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  268.461067] init: waitpid returned pid 581, status = 00000000
+<5>[  268.461079] init: process 'cnd', pid 581 exited
+<5>[  268.461088] init: process 'cnd' killing any children in process group
+<6>[  268.461182] init: waitpid returned pid 582, status = 0000ff00
+<5>[  268.461191] init: process 'port-bridge', pid 582 exited
+<5>[  268.461199] init: process 'port-bridge' killing any children in process group
+<5>[  273.466558] init: starting 'cnd'
+<5>[  273.467591] init: starting 'port-bridge'
+<6>[  273.468478] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  273.490229] init: waitpid returned pid 583, status = 00000000
+<5>[  273.490241] init: process 'cnd', pid 583 exited
+<5>[  273.490251] init: process 'cnd' killing any children in process group
+<6>[  273.491406] init: waitpid returned pid 584, status = 0000ff00
+<5>[  273.491416] init: process 'port-bridge', pid 584 exited
+<5>[  273.491425] init: process 'port-bridge' killing any children in process group
+<5>[  278.496776] init: starting 'cnd'
+<5>[  278.497800] init: starting 'port-bridge'
+<6>[  278.498758] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  278.520314] init: waitpid returned pid 585, status = 00000000
+<5>[  278.520329] init: process 'cnd', pid 585 exited
+<5>[  278.520339] init: process 'cnd' killing any children in process group
+<6>[  278.521234] init: waitpid returned pid 586, status = 0000ff00
+<5>[  278.521244] init: process 'port-bridge', pid 586 exited
+<5>[  278.521254] init: process 'port-bridge' killing any children in process group
+<3>[  278.526702] set_bus_bw: invalid bandwidth request (4)
+<5>[  283.526621] init: starting 'cnd'
+<5>[  283.527654] init: starting 'port-bridge'
+<6>[  283.528598] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  283.550265] init: waitpid returned pid 587, status = 00000000
+<5>[  283.550278] init: process 'cnd', pid 587 exited
+<5>[  283.550287] init: process 'cnd' killing any children in process group
+<6>[  283.551597] init: waitpid returned pid 588, status = 0000ff00
+<5>[  283.551609] init: process 'port-bridge', pid 588 exited
+<5>[  283.551618] init: process 'port-bridge' killing any children in process group
+<5>[  288.556999] init: starting 'cnd'
+<5>[  288.558021] init: starting 'port-bridge'
+<6>[  288.558979] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  288.580259] init: waitpid returned pid 589, status = 00000000
+<5>[  288.580272] init: process 'cnd', pid 589 exited
+<5>[  288.580281] init: process 'cnd' killing any children in process group
+<6>[  288.581573] init: waitpid returned pid 590, status = 0000ff00
+<5>[  288.581584] init: process 'port-bridge', pid 590 exited
+<5>[  288.581594] init: process 'port-bridge' killing any children in process group
+<5>[  293.586990] init: starting 'cnd'
+<5>[  293.588000] init: starting 'port-bridge'
+<6>[  293.588959] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  293.610319] init: waitpid returned pid 591, status = 00000000
+<5>[  293.610333] init: process 'cnd', pid 591 exited
+<5>[  293.610346] init: process 'cnd' killing any children in process group
+<6>[  293.611431] init: waitpid returned pid 592, status = 0000ff00
+<5>[  293.611442] init: process 'port-bridge', pid 592 exited
+<5>[  293.611451] init: process 'port-bridge' killing any children in process group
+<3>[  294.807206] set_bus_bw: invalid bandwidth request (4)
+<5>[  298.616811] init: starting 'cnd'
+<5>[  298.617841] init: starting 'port-bridge'
+<6>[  298.618776] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  298.640280] init: waitpid returned pid 593, status = 00000000
+<5>[  298.640292] init: process 'cnd', pid 593 exited
+<5>[  298.640302] init: process 'cnd' killing any children in process group
+<6>[  298.641468] init: waitpid returned pid 594, status = 0000ff00
+<5>[  298.641480] init: process 'port-bridge', pid 594 exited
+<5>[  298.641489] init: process 'port-bridge' killing any children in process group
+<3>[  298.646742] set_bus_bw: invalid bandwidth request (4)
+<6>[  302.346859] pm8058_is_battery_present: batt_id is 56
+<6>[  302.366750] pm8058-charger pm8058-charger: pm8058_is_battery_id_valid : CHANNEL_ADC_BATT_ID = 56
+<6>[  302.366824] msm-charger update_heartbeat batt_status= 4, charger_type =2
+<5>[  303.646882] init: starting 'cnd'
+<5>[  303.647910] init: starting 'port-bridge'
+<6>[  303.648877] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  303.670288] init: waitpid returned pid 595, status = 00000000
+<5>[  303.670301] init: process 'cnd', pid 595 exited
+<5>[  303.670311] init: process 'cnd' killing any children in process group
+<6>[  303.671483] init: waitpid returned pid 596, status = 0000ff00
+<5>[  303.671494] init: process 'port-bridge', pid 596 exited
+<5>[  303.671503] init: process 'port-bridge' killing any children in process group
+<3>[  303.676728] set_bus_bw: invalid bandwidth request (4)
+<5>[  308.676862] init: starting 'cnd'
+<5>[  308.677903] init: starting 'port-bridge'
+<6>[  308.678811] init: Created socket '/dev/socket/cnd' with mode '660', user '0', group '1001'
+<6>[  308.700361] init: waitpid returned pid 597, status = 00000000
+<5>[  308.700378] init: process 'cnd', pid 597 exited
+<5>[  308.700388] init: process 'cnd' killing any children in process group
+<6>[  308.701307] init: waitpid returned pid 598, status = 0000ff00
+<5>[  308.701318] init: process 'port-bridge', pid 598 exited
+<5>[  308.701327] init: process 'port-bridge' killing any children in process group
+<3>[  308.706705] set_bus_bw: invalid bandwidth request (4)
